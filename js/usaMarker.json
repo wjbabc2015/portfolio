@@ -1,0 +1,153 @@
+usaMarker = [
+	{
+		"position": [35.606879, -77.367011],
+		"title": "Greenville, North Carolina",
+		"type": "unique",
+		"info": "<a href='#my-ceremony'>East Carolina University</a>"
+	}, {
+		"position": [35.207223, -80.834606],
+		"title": "Charlotte, North Carolina",
+		"type": "general",
+		"info": "The first place I lived in USA"
+	}, {
+		"position": [35.250763, -75.543108],
+		"title": "Outer Banks, North Carolina",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#outer-banks'>Trip in Outer Banks</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>21 July - 22 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Wright Brothers National Memorial</li><li>Currituck Beach Lighthouse and Museum</li><li>Bodie Island Lighthouse</li><li>Cape Hatteras Lighthouse and Ocracoke Lighthouse</li></ul></li></ul></div>"
+	}, {
+		"position": [34.700879, -76.740185],
+		"title": "Atlantic Beach, North Carolina",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#altantic-beach'>Trip in Atlantic Beach</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>mutiple times</p></li><li><h5>tourist attractions:</h5><p>Beach View and Fort Macon State Park</p></li></ul></div>"
+	}, {
+		"position": [35.463643, -78.901145],
+		"title": "Lillington, North Carolina",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RRSP'>Trip in Raven Rock State Park</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>5 September, 2016</p></li><li><h5>tourist attractions:</h5><p>Raven Rock State Park</p></li></ul></div>"
+	}, {
+		"position": [36.355682, -80.463438],
+		"title": "Winston-Salem, North Carolina",
+		"type": "general",
+		"info": "<a href='#PMSP'>Pilot Mountain State Park</a>"
+	}, {
+		"position": [36.101414, -81.976466],
+		"title": "Boone, North Carolina",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4>Trip with Brother and Sister in Chris</h4><ul class = 'list-group'><li><h5>Time:</h5><p>12 October, 2015</p></li><li><h5>tourist attractions:</h5><ul><li>Grandfather Mountain</li><li>Blue Ridge Parkway</li><li>Falls</li></ul></li></ul></div>"
+	}, {
+		"position": [35.439907, -82.249657],
+		"title": "Chimney Rock, North Carolina",
+		"type": "general",
+		"info": "<a href='#CRSP'>Chimney Rock State Park</a>"
+	}, {
+		"position": [36.852541, -75.976130],
+		"title": "Virginia Beach, Virginia",
+		"type": "general",
+		"info": "<a href='#virginia-beach'>Virginia Beach</a>"
+	}, {
+		"position": [37.272831, -76.710887],
+		"title": "Williamsburg, Virginia",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#trip-DC'>Trip to D.C</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>30 July, 2016</p></li><li><h5>tourist attractions:</h5><p>William & Mary</p></li></ul></div>"
+	}, {
+		"position": [36.514204, -77.950370],
+		"title": "Elams, North Carolina",
+		"type": "general",
+		"info": "Lake Gaston Retreat twice"
+	}, {
+		"position": [38.887262, -77.026258],
+		"title": "Washington, District of Columbia",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#trip-DC'>Trip in D.C</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>30 July - 1 August, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>The White House</li><li>United States Capitol</li><li>Washington Monument</li><li>Lincoln Memorial</li><li>......</li></ul></li></ul></div>"
+	}, {
+		"position": [40.735538, -74.000383],
+		"title": "New York, New York",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#trip-new-york'>Road Trip in New York</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>6 March - 9 March, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Empire State Building</li><li>Statue of Liberty National Monument</li><li>Brooklyn Bridge</li><li>American Museum of Natural History</li><li>Intrepid Sea, Air & Space Museum</li><li>Columbia University</li><li>Central Park</li><li>9/11 Tribute Museum</li><li>Times Square</li><li>......</li></ul></li></ul></div>"
+	}, {
+		"position": [32.794041, -96.879368],
+		"title": "Dallas, Texas",
+		"type": "general",
+		"info": "The first place I arrived in USA"
+	}, {
+		"position": [42.343690, -71.105822],
+		"title": "Boston, Massachusetts",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#trip-boston'>Trip in Boston</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>4 July - 5 July, 2015</p></li><li><h5>tourist attractions:</h5><ul><li>Harvard University</li><li>Massachusetts Institute of Technology</li><li>USS Constitution Museum</li><li>Old North Church</li><li>Freedom Trail</li><li>......</li></ul></li></ul></div>"
+	}, {
+		"position": [33.817058, -78.679988],
+		"title": "North Myrtle Beach, South Carolina",
+		"type": "general",
+		"info": "Christmas vacation, 2016"
+	}, {
+		"position": [32.802137, -79.955472],
+		"title": "Charleston, South Carolina",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#charleston'>Trip in Charleston</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>29 December, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Rainbow Row</li><li>White Point Garden</li><li>......</li></ul></li></ul></div>"
+	}, {
+		"position": [35.116508, -89.979072],
+		"title": "Memphis, Tennessee",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>Tips:</h5><p>The destination of the first day</p></li></ul></div>"
+	}, {
+		"position": [35.191217, -101.880047],
+		"title": "Amarillo, Texas",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>Tips:</h5><p>The destination of the second day</p></li></ul></div>"
+	}, {
+		"position": [35.224837, -111.658300],
+		"title": "Flagstaff, Arizona",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>Tips:</h5><p>The destination of the third day</p></li></ul></div>"
+	}, {
+		"position": [36.074587, -112.091135],
+		"title": "Tusayan, Arizona",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Grand Canyon</li></ul></li></ul></div>"
+	}, {
+		"position": [36.151435, -115.129805],
+		"title": "Las Vegas, Nevada",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Horseshoe Bend</li><li>Zion National Park</li><li>Las Vegas</li></ul></li></ul></div>"
+	}, {
+		"position": [34.051145, -117.620793],
+		"title": "Los Angeles, California",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Hoover Dam</li></ul></li></ul></div>"
+	}, {
+		"position": [36.957037, -120.071483],
+		"title": "Madera, California",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Hollywood Sign</li><li>Beverly Hills</li><li>Pacific Coast Highway</li></ul></li></ul></div>"
+	}, {
+		"position": [39.568262, -119.793849],
+		"title": "Reno, Nevada",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Yosemite National Park</li></ul></li></ul></div>"
+	}, {
+		"position": [40.800990, -111.850102],
+		"title": "Salt Lake City, Utah",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>US-80</li><li>Salt Lake</li></ul></li></ul></div>"
+	}, {
+		"position": [42.852918, -109.881744],
+		"title": "Sublette County, Wyoming",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Antelope Island State Park</li><li>Salt Lake Temple</li><li>Temple Square</li></ul></li></ul></div>"
+	}, {
+		"position": [41.803335, -107.242115],
+		"title": "Rawlins, Wyoming",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Grand Teton National Park</li><li>Old Faithful</li><li>Morning Glory Pool</li><li>Grand Prismatic Spring</li></ul></li></ul></div>"
+	}, {
+		"position": [40.766739, -96.674599],
+		"title": "Lincoln, Nebraska",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>Tips:</h5><p>The destination of the second last day</p></li></ul></div>"
+	}, {
+		"position": [37.669972, -88.898280],
+		"title": "Williamson, Illinois",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#RTEWC'>Road Trip from East to West</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>2 July - 16 July, 2016</p></li><li><h5>Tips:</h5><p>The destination of the last day</p></li></ul></div>"
+	}
+];

@@ -1,0 +1,87 @@
+tripChina = [
+	{	
+		"id": "hunan",
+		"list": "Hunan",
+		"name": "Hunan",
+		"description": "I was born and achieve all the education ranging from elementary school to college here. On March 2010, most of my classmates in college went to the Zhangjiajie National Forest Park together for relax. During these three days, we shared the enjoyable time with each other. After maternal grandfather passed away, we went to the Hengshan Mountain Scenic Area which is one of the most five famous mountains in China every year for some reasons. Finally, On July 2013, my mom, aunt, young cousin and I drove to the west of Hunan province. We experienced the different culture of the national minority there. I had two working experience as IC layout engineer in Changsha which is the capital of Hunan.",
+		"viewpoints": ["The Aizhai Bridge", "Hengshan Mountain Scenic Area", "Fenghuang", "Tianlong Canyon", "Zhangjiajie National Forest Park"],
+		"links": ["http://y.photo.qq.com/img?s=H97Sns2Y5&l=y.jpg", "http://y.photo.qq.com/img?s=6Er9EnAmr&l=y.jpg", "http://y.photo.qq.com/img?s=v2sruGizE&l=y.jpg", "http://y.photo.qq.com/img?s=EwIg19330&l=y.jpg", "http://y.photo.qq.com/img?s=vs3aq4b9f&l=y.jpg"]
+	},{	
+		"id": "guangdong",
+		"list": "Guangdong",
+		"name": "Guangdong",
+		"description": "Guangdong is the top developed province in China. The first time I went there is for our internship arranged by the college. I had two weeks internship with my classmates at a mobile phone factory in Dongguan. Through this opportunity, I paid a visit to Shenzhen and Guangzhou with my friend. After that, I went to Shenzhen and Guangzhou several times for different reasons. After graduating from college, most of my classmates found jobs there eventually.",
+		"viewpoints": ["The Whampoa Military Academy", "Yuexiu Mountain", "Splendid China", "Window of the World"],
+		"links": ["http://y.photo.qq.com/img?s=7wBBzL9BF&l=y.jpg", "http://y.photo.qq.com/img?s=XpiAXDOsA&l=y.jpg", "http://y.photo.qq.com/img?s=xu3T8nC4h&l=y.jpg", "http://y.photo.qq.com/img?s=5sDqlXLEU&l=y.jpg"]
+	},{	
+		"id": "yunnan",
+		"list": "Yunnan",
+		"name": "Yunnan",
+		"description": "My mom and I went to Yunnan province for a trip. We arrived Kunming by train. My uncle accompanied us around all Tourist Attractions in Kunming, and we found a travel agency to continue our trip to Dali and Lijiang. Finally, we were back from Kunming by train.",
+		"viewpoints": ["The Dianchi Pool", "Stone Forest Scenic Area", "Jiuxiang Rongdong", "Three Pagodas and Chongsheng Temple", "Erhai Lake", "Butterfly Spring", "Old Town of Lijiang", "Old Town of Shuhe", "Black Dragon Pool"],
+		"links": ["http://y.photo.qq.com/img?s=C3859yFBp&l=y.jpg", "http://y.photo.qq.com/img?s=N2KMCnfT3&l=y.jpg", "http://y.photo.qq.com/img?s=TtaZ0z80z&l=y.jpg", "http://y.photo.qq.com/img?s=vhEN2874E&l=y.jpg", "http://y.photo.qq.com/img?s=AAzsUrnzM&l=y.jpg", "http://y.photo.qq.com/img?s=5CsdBiQDb&l=y.jpg", "http://y.photo.qq.com/img?s=6sEJhUYKJ&l=y.jpg", "http://y.photo.qq.com/img?s=li3ZkgLR4&l=y.jpg", "http://y.photo.qq.com/img?s=FmTpVwGmM&l=y.jpg"]
+	},{	
+		"id": "qinghai",
+		"list": "Qinghai",
+		"name": "Qinghai",
+		"description": "Two years later after our graduation, one of my best friends suggested that we should have a wonderful and memorable trip together. However, because of busy work, only four of us can make the trip. Two came from Shenzhen, one came from Beijing and I left from my home. We met in Xining and departed to Haibei the next day. Through three days, we finished the trip around the Qinghai Lake by bike. I indeed challenged myself via this trip. I rarely can move after we returned the bicycle.",
+		"viewpoints": ["The Riding Path around Lake", "Day 1: Xihaizhen -- Jiangxigouxiang", "Day 2: Jiangxigouxiang -- Shaliuhezhen", "Day 3: Shaliuhezhen -- Xihaizhen", "The Qinghai Lake"],
+		"links": ["images/qinghai.jpg", "http://y.photo.qq.com/img?s=VreSUq90H&l=y.jpg", "http://y.photo.qq.com/img?s=jg3T43Kcp&l=y.jpg", "http://y.photo.qq.com/img?s=6uCNoiN3f&l=y.jpg", "http://y.photo.qq.com/img?s=vfGsWbHjN&l=y.jpg"]
+	},{	
+		"id": "shanxi",
+		"list": "Shanxi",
+		"name": "Shanxi",
+		"description": "After we finished our tough riding trip, we started our relaxed trip from Xi'an, Shanxi. Xi'an is a historic city in China. Starting from Han dynasty, there are thirteen dynasties whose capital are located there. The most two famous dynasties are Qin and Tang which left plenty of historic sites. During our two-day trip, we paid a visit to them.",
+		"viewpoints": ["The Bell and Drum Tower in Xi'an", "The Mausoleum of Qin Shi Huang", "Terracotta Army Museum", "Huaqing Hot Springs"],
+		"links": ["http://y.photo.qq.com/img?s=augi6NoM0&l=y.jpg", "http://y.photo.qq.com/img?s=m9cviW7m7&l=y.jpg", "http://y.photo.qq.com/img?s=mBao7Q9iv&l=y.jpg", "http://y.photo.qq.com/img?s=LnYawJiR2&l=y.jpg"]
+	},{	
+		"id": "chongqing",
+		"list": "Chongqing",
+		"name": "Chongqing",
+		"description": "There are only two of us left after the trip in Xi'an. We arrived Chongqing to visit another classmate in college. Chongqing is the intersection of three rivers, and the viewpoint of the Chaotianmen is the place to watch it. Chongqing is also a historic city. We toured some historic sites within the city. As for the next day, I went to Wulong Karst National Geology Park accompanied by a travel agency. Regarding my favorite, I am more interested in natural scenery, rather than cultural attractions. I really enjoyed the miracle of nature.",
+		"viewpoints": ["The Chaotianmen", "Hongyadong stilted house", "Ciqikou", "Chongqing People's Liberation Monument", "Wulong Karst National Geology Park", "Xiannv Isthmus"],
+		"links": ["http://y.photo.qq.com/img?s=v3ri4SBzz&l=y.jpg", "http://y.photo.qq.com/img?s=LkbsKG7CO&l=y.jpg", "http://y.photo.qq.com/img?s=l3hsuaFB6&l=y.jpg", "http://y.photo.qq.com/img?s=WxZM3gU7M&l=y.jpg", "http://y.photo.qq.com/img?s=HvMTj93u6&l=y.jpg", "http://y.photo.qq.com/img?s=IqSCu0Bt3&l=y.jpg"]
+	},{	
+		"id": "hubei",
+		"list": "Hubei",
+		"name": "Hubei",
+		"description": "Hubei is the last stop of our long and memorable trip. Firstly, I was entertained by the family of my best friend and enjoyed the miracle of nature again in Enshi. Then, I arrived Wuhan by train to catch up with another train which can bring me back home. In the meantime, I toured some historic sites there.",
+		"viewpoints": ["The Wuhan City", "Yellow Crane Tower", "Wuhan Changjiang Bridge", "Qingchuange", "Memorial Hall of Wuchang Uprising in 1911 Revolution", "Yunlong Isthmus", "Enshi Grand Canyon"],
+		"links": ["http://y.photo.qq.com/img?s=xjElDQPKf&l=y.jpg", "http://y.photo.qq.com/img?s=QlfuXFn6k&l=y.jpg", "http://y.photo.qq.com/img?s=IpTZJPm60&l=y.jpg", "http://y.photo.qq.com/img?s=y0xqUeInT&l=y.jpg", "http://y.photo.qq.com/img?s=SAHbipdXz&l=y.jpg", "http://y.photo.qq.com/img?s=zmD1R9YEn&l=y.jpg", "http://y.photo.qq.com/img?s=xlCr1T14D&l=y.jpg"]
+	},{	
+		"id": "beijing",
+		"list": "Beijing",
+		"name": "Beijing",
+		"description": "Beijing is the capital of China. It is also a famous city for traveling. There are lots of historic sites located in Beijing. Comparing to Xi'an, there are only five dynasties whose capital are located in Beijing. I went to Beijing three times for different reasons. Through these three trips, I visited all the famous Tourist Attractions, such the Great Wall, the Forbidden City and so on.",
+		"viewpoints": ["The Tian'anmen Square", "The Great Wall", "The Forbidden City", "The Qian Men", "Temple of Heaven", "Summer Palace"],
+		"links": ["http://y.photo.qq.com/img?s=k2hl3drgT&l=y.jpg", "http://y.photo.qq.com/img?s=MfhKMKo8x&l=y.jpg", "http://y.photo.qq.com/img?s=f8WSYAWLx&l=y.jpg", "http://y.photo.qq.com/img?s=VohJNxcYD&l=y.jpg", "http://y.photo.qq.com/img?s=kzl9T8hyL&l=y.jpg", "http://y.photo.qq.com/img?s=u5oXXHikb&l=y.jpg"]
+	},{	
+		"id": "jiangsu",
+		"list": "Jiangsu",
+		"name": "Jiangsu",
+		"description": "Jiangsu is located in the east of China. After I graduated from college, I got a job and was sent to Suzhou for pre-training before going to work. As a result, I stayed in Suzhou for half a year until 2012. Suzhou is also a historic city in China. Its downtown is surrounded by city walls. Because of this chance, I have toured and enjoyed the natural and cultural scene of the village in the southeast of China.",
+		"viewpoints": ["The Suzhou City", "Zhouzhuang", "Tongli", "Mudu", "Canglang Pavilion", "Jinghang Canal", "Qilishantang Scenic Area", "The Humble Administrator Garden"],
+		"links": ["http://y.photo.qq.com/img?s=852FwAQOx&l=y.jpg", "http://y.photo.qq.com/img?s=8tF1difgZ&l=y.jpg", "http://y.photo.qq.com/img?s=yv3UM7kp2&l=y.jpg", "http://y.photo.qq.com/img?s=YhrJlTtYU&l=y.jpg", "http://y.photo.qq.com/img?s=Qgk3HlYsu&l=y.jpg", "http://y.photo.qq.com/img?s=xv2l1SoxB&l=y.jpg", "", "http://y.photo.qq.com/img?s=dxgBYwp69&l=y.jpg"]
+	},{	
+		"id": "northeast",
+		"list": "Northeast",
+		"name": "The Northeast of China",
+		"description": "The northeast of China consists of three provinces. Within these provinces, I have been Liaoning and Heilongjiang. I toured Liaoning both in summer and winter, while I only toured Heilongjiang just in winter. Liaoning was developed since Ming dynasty, all the historic sites were built after that. In Liaoning, I enjoyed both the natural and cultural scenery.",
+		"viewpoints": ["The Xinghai Square in Dalian", "Saint Sophia Cathedra", "Bingxue Big World", "Marshal Zhang's Mansion", "The Shenyang Imperial Palace Museum", "Qian Mountain"],
+		"links": ["http://y.photo.qq.com/img?s=wr5EGi7P2&l=y.jpg", "http://y.photo.qq.com/img?s=oqytzjDoW&l=y.jpg", "http://y.photo.qq.com/img?s=rxuXEIgAB&l=y.jpg", "http://y.photo.qq.com/img?s=632IQx1D4&l=y.jpg", "http://y.photo.qq.com/img?s=5oHtlwDUe&l=y.jpg", "http://y.photo.qq.com/img?s=QdneLM1QB&l=y.jpg"]
+	},{	
+		"id": "hongkong",
+		"list": "Hongkong",
+		"name": "Hong Kong",
+		"description": "My mom and I went to Hong Kong in February 2014 for the family reunion.",
+		"viewpoints": ["The Victoria Harbour", "Hong Kong Disneyland Resort", "Tsim Sha Tsui", "The Peak", "Lantau Island"],
+		"links": ["http://y.photo.qq.com/img?s=GD2vbKz1V&l=y.jpg", "http://y.photo.qq.com/img?s=rCeqc3QX0&l=y.jpg", "", "", ""]
+	},{	
+		"id": "macau",
+		"list": "Macau",
+		"name": "Macau",
+		"description": "After the family reunion, my mom and I went to Macau by boat. In my perspective view, Macau is not as interesting as Hong Kong. We spent two days there and went back home via Zhuhai.",
+		"viewpoints": ["The Macau", "Hotel Lisboa", "Macau Fisherman's Wharf", "The Venetian Macao", "Ruins of St. Paul's", "Guia Lighthouse"],
+		"links": ["http://y.photo.qq.com/img?s=46xPBSfHJ&l=y.jpg", "http://y.photo.qq.com/img?s=4dRR65cKR&l=y.jpg", "http://y.photo.qq.com/img?s=2v7EKsDSx&l=y.jpg", "", "", ""]
+	}
+]

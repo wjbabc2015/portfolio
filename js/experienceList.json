@@ -1,0 +1,27 @@
+experienceList = [
+	{
+		"jobTitle": "Full Stack Web Developer",
+		"duration": "April 2017 - Present",
+		"discription": ["Build web-based application running on MySQL for specific functionality using HTML, CSS, PHP, Jquery from front-end to back-end", "Experience using Bootstrap to build the front-end of the application"],
+		"reference": ["http://hawk.aos.ecu.edu/videoupload/"],
+		"imageSrc": ["images/project1.jpg"]
+	},{
+		"jobTitle": "Research Assistant in Machine Learning",
+		"duration": "August 2016 - April 2017",
+		"discription": ["Implemented a JAVA application for extracting texture features from gray-level co-occurrence matrix (GLCM), and proficient with JAVA", "Performed unit testing to verify the implemented JAVA application, and familiar with unit testing", "Conducted experiment to validate whether the texture features can be applied in support vector machine (SVM) for image classification by using LIBSVM (an integrated software for SVM), and familiar with supervised learning algorithm"],
+		"reference": [],
+		"imageSrc": []
+	},{
+		"jobTitle": "Full Stack Web Developer",
+		"duration": "February 2016 - August 2016",
+		"discription": ["Developed a database driven website in PHP 5.3 running on MySQL from scratch for the Global Academic Initiatives (GAI) of East Carolina University (ECU) to manage their partnership, and knew how to develop PHP with MySQL", "Wrote complex SQL queries to support the searching functionality of the system", "Developed a web-based functionality that generates dynamic data from MySQL database based on user’s preference by using AJAX, and understood how AJAX applies into website development", "Experienced the way that accessing the Document Object Model (DOM) interface via Javascript and JQuery, and knew how they apply into CSS to create high-quality front-end website development"],
+		"reference": ["http://hawk.aos.ecu.edu/"],
+		"imageSrc": []
+	},{
+		"jobTitle": "Android App Developer",
+		"duration": "August 2015 - February 2016",
+		"discription": ["Delivered a healthcare application connecting to the weight scale through IOIO board (an open source PIC microcontroller-based boards)", "Built database within the application by using SQLITE", "Developed application front-end with XML", "Developed application back-end with JAVA in Android Studio", "Tested and improved the Android application based on requirements of supervisor"],
+		"reference": [],
+		"imageSrc": ["images/project4.jpg", "images/project4-2.jpg"]
+	}
+]
