@@ -23,12 +23,12 @@ usaMarker = [
 		"position": [35.463643, -78.901145],
 		"title": "Lillington, North Carolina",
 		"type": "general",
-		"info": "<div class = 'container markerinfo'><h4><a href='#RRSP'>Trip in Raven Rock State Park</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>5 September, 2016</p></li><li><h5>tourist attractions:</h5><p>Raven Rock State Park</p></li></ul></div>"
+		"info": "<div class = 'container markerinfo'><h4><a href='#raven-rock'>Trip in Raven Rock State Park</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>5 September, 2016</p></li><li><h5>tourist attractions:</h5><p>Raven Rock State Park</p></li></ul></div>"
 	}, {
 		"position": [36.355682, -80.463438],
 		"title": "Winston-Salem, North Carolina",
 		"type": "general",
-		"info": "<a href='#PMSP'>Pilot Mountain State Park</a>"
+		"info": "<a href='#pilot-mountain'>Pilot Mountain State Park</a>"
 	}, {
 		"position": [36.101414, -81.976466],
 		"title": "Boone, North Carolina",
@@ -38,7 +38,7 @@ usaMarker = [
 		"position": [35.439907, -82.249657],
 		"title": "Chimney Rock, North Carolina",
 		"type": "general",
-		"info": "<a href='#CRSP'>Chimney Rock State Park</a>"
+		"info": "<a href='#chimney-rock'>Chimney Rock State Park</a>"
 	}, {
 		"position": [36.852541, -75.976130],
 		"title": "Virginia Beach, Virginia",

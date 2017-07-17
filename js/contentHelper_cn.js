@@ -133,25 +133,25 @@ function chinaInitialize(){
 						'<p class="lead">Tourist Attractions:</p>' + 
 						'<ul>';
 
-			for (var v = 0; v < province.rows.length; v ++){
-				if (province.rows[v].link == "") {
-					chinaDetail += '<li>' + province.rows[v].name + '</li>';
+			for (var v = 1; v < province.viewpoints.length; v ++){
+				if (province.links[v] == "") {
+					chinaDetail += '<li>' + province.viewpoints[v] + '</li>';
 				}else{
-					chinaDetail += '<li><a href="' + province.rows[v].link + 
+					chinaDetail += '<li><a href="' + province.links[v] + 
 						'" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">' + 
-						province.rows[v].name + '</a></li>';
+						province.viewpoints[v] + '</a></li>';
 				}
 			}
 
 			chinaDetail += '</ul></div>' + 
 							'<div class="col-md-5">' + 
 							'<img class="trip-image img-responsive center-block" src="' + 
-							province.coverImg[0] + 
+							province.links[0] + 
 							'" alt="Generic placeholder image">' +
 							'<a href="' + 
-							province.coverImg[0] + 
+							province.links[0] + 
 							'" target="_blank" class="text-right">Full Picture -- ' + 
-							province.coverImg[1] + 
+							province.viewpoints[0] + 
 							'</a></div></div>' + 
 							'<br><p class="pull-right"><a href="#trip-detail-china">Back to List</a></p>' + 
 							'<br><hr class="profile_divider">';
@@ -161,25 +161,25 @@ function chinaInitialize(){
 							'<h2><span class="font-italic">#' + i + ': </span>' + province.name + '</h2><hr>' + 
 							'<div class="col-md-5">' + 
 								'<img class="trip-image img-responsive center-block" src="' + 
-								province.coverImg[0] + 
+								province.links[0] + 
 								'" alt="Generic placeholder image">' +
 								'<a href="' + 
-								province.coverImg[0] + 
+								province.links[0] + 
 								'" target="_blank" class="text-right">Full Picture -- ' + 
-								province.coverImg[1] +
+								province.viewpoints[0] + 
 								'</a></div>' + 
 								'<div class="col-md-7"><p class="text-justify"><span class="lead">Description: </span>' + 
 								province.description + '</p>' + 
 								'<p class="lead">Tourist Attractions:</p>' + 
 								'<ul>';
 
-			for (var v = 0; v < province.rows.length; v ++){
-				if (province.rows[v].link == "") {
-					chinaDetail += '<li>' + province.rows[v].name + '</li>';
+			for (var v = 1; v < province.viewpoints.length; v ++){
+				if (province.links[v] == "") {
+					chinaDetail += '<li>' + province.viewpoints[v] + '</li>';
 				}else{
-					chinaDetail += '<li><a href="' + province.rows[v].link + 
+					chinaDetail += '<li><a href="' + province.links[v] + 
 						'" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">' + 
-						province.rows[v].name + '</a></li>';
+						province.viewpoints[v] + '</a></li>';
 				}
 			}
 
