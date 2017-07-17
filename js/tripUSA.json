@@ -5,36 +5,45 @@ multipleDay = [
 		"title": "The Washington D.C.",
 		"time": "30 July - 1 August, 2016",
 		"description": "Washington D.C. is the capitol of the United State of America. It is worth for paying a visit when traveling in the USA. Therefore, I planned a two-day trip there just for the historic landmarks. I also planned to go the Great Falls National Park, but I didn't have enough time because of the traffic jam between the Richmond and Washington D.C.",
-		"titleImg": ["http://y.photo.qq.com/img?s=zBnjjTbVE&l=y.jpg", "The White House"],
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2374.jpg", "The White House"],
 		"rows": [
 			{
 				"rowTitle": "Day 1: Greenville, NC -- Washington D.C.",
-				"coverImg": [["http://y.photo.qq.com/img?s=YgsvnnShw&l=y.jpg", "The College of William & Mary"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2373.jpg", "The College of William & Mary"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=02x9CyFE4&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2367.jpg",
+						"name": "The College of William & Mary"
+					},{
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2376.jpg",
 						"name": "The White House"
 					},{
-						"link": "http://y.photo.qq.com/img?s=65023YtYu&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2378.jpg",
 						"name": "The Chinatown"
 					},{
-						"link": "http://y.photo.qq.com/img?s=48vqkLZOF&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2380.jpg",
 						"name": "The United States Capitol (night scene)"
 					}
 				]
 			},{
 				"rowTitle": "Day 2: Washington D.C. -- Greenville, NC",
-				"coverImg": [["http://y.photo.qq.com/img?s=AsIf9VF1V&l=y.jpg", "The National Mall"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2386.jpg", "The National Mall"]],
 				"details": [
 					{
 						"link": "",
 						"name": "The National Mall"
 					},{
-						"link": "http://y.photo.qq.com/img?s=5w9PN1yfn&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2857.jpg",
 						"name": "The Washington Monument"
 					},{
-						"link": "http://y.photo.qq.com/img?s=lvqpPQREZ&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2394.jpg",
 						"name": "The World War II Memorial"
+					},{
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2856.jpg",
+						"name": "The Lincoln Memorial"
+					},{
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2389.JPG",
+						"name": "The Lincoln Memorial Reflecting Pool"
 					}
 				]
 			}
@@ -45,50 +54,50 @@ multipleDay = [
 		"title": "The Trip in Outer Banks, North Carolina",
 		"time": "21 July - 22 July, 2016",
 		"description": "North Carolina looks like a rectangle with its length is really long. The Great Smoky Mountain locates at West and the Outer Banks locates at East. We traveled in the Outer Banks from north to south, then came back to the mainland via ferry named by East Carolina University. I have been there twice during 2016 to 2017. Within these two trips, I visited three lighthouses and enjoyed the wonderful wave from the Atlantic Ocean.",
-		"titleImg": ["http://y.photo.qq.com/img?s=RwVZRwVDc&l=y.jpg", "The Trip Path"],
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2360.jpg", "The Trip Path"],
 		"rows": [
 			{
 				"rowTitle": "The Lighthouses in Outer Banks",
-				"coverImg": [["http://y.photo.qq.com/img?s=TrcL46av0&l=y.jpg", "The Cape Hatteras Lighthouse"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2339.jpg", "The Cape Hatteras Lighthouse"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=y1wg7JP38&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2327.jpg",
 						"name": "The Bodie Island Lighthouse"
 					},{
 						"link": "",
 						"name": "The Cape Hatteras Lighthouse"
 					},{
-						"link": "http://y.photo.qq.com/img?s=DC0xa6jyl&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2348.jpg",
 						"name": "The Ocracoke Lighthouse"
 					},{
-						"link": "http://y.photo.qq.com/img?s=ZEKvR9NMM&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2708.jpg",
 						"name": "The Currituck Beach Lighthouse"
 					}
 				]
 			},{
 				"rowTitle": "The Seashore in Outer Banks",
-				"coverImg": [["http://y.photo.qq.com/img?s=AtHcZnypL&l=y.jpg", "The Atlantic Ocean in Buxton"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2333.jpg", "The Atlantic Ocean in Buxton"]],
 				"details": [
 					{
 						"link": "",
 						"name": "The Hatteras Island"
 					},{
-						"link": "http://y.photo.qq.com/img?s=S8JTcVRQR&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/psb.jpg",
 						"name": "Swimming in the Ocean"
 					}
 				]
 			},{
 				"rowTitle": "The Wright Brothers National Memorial",
-				"coverImg": [["http://y.photo.qq.com/img?s=1iJusMd8h&l=y.jpg", "The Wright Brothers National Memorial"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2331.jpg", "The Wright Brothers National Memorial"]],
 				"details": [
 					{
-						"link": "",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2332.jpg",
 						"name": "Kill Devil Hills"
 					}
 				]
 			},{
 				"rowTitle": "The Ferry in North Carolina",
-				"coverImg": [["http://y.photo.qq.com/img?s=UqeJhW8zc&l=y.jpg", "The Ferry with the symbol of East Carolina University"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2351.jpg", "The Ferry with the symbol of East Carolina University"]],
 				"details": [
 					{
 						"link": "",
@@ -106,11 +115,11 @@ multipleDay = [
 		"title": "The Road Trip from East to West",
 		"time": "2 July - 16 July, 2016",
 		"description": "My mom visited me from China in summer, 2016. To make her trip more impressive, I planned this road trip across the country. To finish my plan, I have to drive around 7000 miles within 14 days by myself, and I did it! The total cost is $3772 including SUV rental, gas, food and hotels. To conclude, this is a really memorable experience in my whole life.",
-		"titleImg": ["images/ew-2.jpg", "The Trip Path"],
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-2.jpg", "The Trip Path"],
 		"rows": [
 			{
 				"rowTitle": "Day 1 - 3: Charlotte, NC -- Flagstaff, AZ",
-				"coverImg": [["http://y.photo.qq.com/img?s=psxrtkr0q&l=y.jpg", "The Scene of the New Mexico"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2068.jpg", "The Scene of the New Mexico"]],
 				"details": [
 					{
 						"link": "",
@@ -122,133 +131,133 @@ multipleDay = [
 						"link": "",
 						"name": "Birmingham, AL"
 					},{
-						"link": "http://y.photo.qq.com/img?s=AxDSQijzS&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2047.jpg",
 						"name": "Tremont, MS"
 					},{
-						"link": "http://y.photo.qq.com/img?s=k1igozYwt&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2052.jpg",
 						"name": "Memphis, TN"
 					},{
-						"link": "http://y.photo.qq.com/img?s=VlkwYrNEU&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2054.jpg",
 						"name": "Fort Smith, AR"
 					},{
 						"link": "",
 						"name": "Oklahoma City, OK"
 					},{
-						"link": "http://y.photo.qq.com/img?s=B64SYsFsI&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2057.jpg",
 						"name": "Amarillo, TX"
 					},{
-						"link": "http://y.photo.qq.com/img?s=nh6nn2f5f&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2063.jpg",
 						"name": "Glenrio, NM"
 					},{
-						"link": "http://y.photo.qq.com/img?s=rtyffYAOU&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2070.jpg",
 						"name": "Sanders, AZ"
 					}
 				]
 			},{
 				"rowTitle": "Day 4 - 6: Flagstaff, AZ -- Los Angeles, CA",
-				"coverImg": [["images/ew-1.jpg", "The Grand Canyon"], ["http://y.photo.qq.com/img?s=bsjYF08VE&l=y.jpg", "The Horseshoe Bend"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-1.jpg", "The Grand Canyon"], ["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9371.jpg", "The Horseshoe Bend"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=a2Xb7QZpL&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2079.jpg",
 						"name": "Grand Canyon National Park, AZ"
 					},{
-						"link": "http://y.photo.qq.com/img?s=LidUoCg9O&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9339.jpg",
 						"name": "Desert View Watchtower, AZ"
 					},{
-						"link": "http://y.photo.qq.com/img?s=YnlUKs7dz&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9315.jpg",
 						"name": "Colorado River"
 					},{
-						"link": "http://y.photo.qq.com/img?s=uwyGYvc6s&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9347.jpg",
 						"name": "Little Colorado River Navajo Tribal Park, AZ"
 					},{
 						"link": "",
 						"name": "Horseshoe Bend, AZ"
 					},{
-						"link": "http://y.photo.qq.com/img?s=tDfnjSRdb&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2138.jpg",
 						"name": "Page, AZ"
 					},{
-						"link": "http://y.photo.qq.com/img?s=t2q2t8kAJ&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2139.jpg",
 						"name": "Zion National Park, UT"
 					},{
-						"link": "http://y.photo.qq.com/img?s=bczZ64ldx&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2150.jpg",
 						"name": "Las Vegas, NV"
 					},{
-						"link": "http://y.photo.qq.com/img?s=VinMnrjXO&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2160.jpg",
 						"name": "Hoover Dam, NV"
 					}
 				]
 			},{
 				"rowTitle": "Day 7 - 9: Los Angeles, CA -- Salt Lake City, UT",
-				"coverImg": [["http://y.photo.qq.com/img?s=DuJSvNsau&l=y.jpg", "The Falls in Yosemite"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9404.jpg", "The Falls in Yosemite"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=O2Lzafyjx&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2163.jpg",
 						"name": "Hollywood Sign, CA"
 					},{
-						"link": "http://y.photo.qq.com/img?s=W9MnIJ9Mc&l=y.jpg",
+						"link": "",
 						"name": "Beverly Hills, CA"
 					},{
-						"link": "http://y.photo.qq.com/img?s=ClRjIAYUF&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2169.jpg",
 						"name": "Solvang, CA",
 					},{
-						"link": "http://y.photo.qq.com/img?s=M2JKzXbGx&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2179.jpg",
 						"name": "California State Route 1"
 					},{
-						"link": "http://y.photo.qq.com/img?s=wDi3HfJVZ&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9387.jpg",
 						"name": "Yosemite National Park, CA"
 					},{
-						"link": "http://y.photo.qq.com/img?s=47wYXmvsl&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9788.jpg",
 						"name": "U.S. Route 80"
 					},{
-						"link": "http://y.photo.qq.com/img?s=zt6NwsWRr&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9768.jpg",
 						"name": "The Salt Flat"
 					}
 				]
 			},{
 				"rowTitle": "Day 10 - 12: Salt Lake City, UT -- Lincoln, NE",
-				"coverImg": [["http://y.photo.qq.com/img?s=sp3hnKXzp&l=y.jpg", "The Old Faithful Geyser"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2291.jpg", "The Old Faithful Geyser"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=PAEC3J98J&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2251.jpg",
 						"name": "Antelope Island State Park, UT"
 					},{
-						"link": "http://y.photo.qq.com/img?s=qxt9UnwY3&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2252.jpg",
 						"name": "Temple Square, UT"
 					},{
-						"link": "http://y.photo.qq.com/img?s=InVYvs2IG&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_0065.jpg",
 						"name": "Kemmerer, Wyoming"
 					},{
-						"link": "http://y.photo.qq.com/img?s=RsZ6fNaTK&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_0282.jpg",
 						"name": "Grand Teton National Park, WY"
 					},{
-						"link": "http://y.photo.qq.com/img?s=xv2sJFmyv&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2282.jpg",
 						"name": "Yellowstone National Park, WY"
 					},{
-						"link": "http://y.photo.qq.com/img?s=Okehhwyei&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_0595.jpg",
 						"name": "Cheyenne, WY"
 					}
 				]
 			},{
 				"rowTitle": "Day 13 - 14: Lincoln, NE -- Charlotte, NC",
-				"coverImg": [["images/ew-7.jpg", "The State Line in Great Smoky Mountains"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-7.jpg", "The State Line in Great Smoky Mountains"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=TyV6sCPcA&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2301.jpg",
 						"name": "Golden Link Historical Marker, NE"
 					},{
-						"link": "http://y.photo.qq.com/img?s=oDacDsCw6&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2303.jpg",
 						"name": "Rock Port, MO"
 					},{
 						"link": "",
 						"name": "Hamburg, IA"
 					},{
-						"link": "http://y.photo.qq.com/img?s=8AxkYG7tR&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2305.jpg",
 						"name": "East St Louis, IL"
 					},{
 						"link": "",
 						"name": "Hendron, KY"
 					},{
-						"link": "http://y.photo.qq.com/img?s=XipNKoCi7&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2309.jpg",
 						"name": "Clarksville, TN"
 					}
 				]
@@ -260,86 +269,86 @@ multipleDay = [
 		"title": "The Trip in New York City",
 		"time": "6 March - 9 March, 2016",
 		"description": "I went to Boston for visiting my friend during spring break. However, he was buzy during weekdays. I decided to pay a visit to New York for the next several days. It was the first time that I took a bus from one city to another in the USA. Actually, it is not comfortable to have more than four hours trip on bus. Therefore, I will not do it in the future. Finally, I missed my flight because of the dunkin donuts. I have to overnight at JFK for the next available flight.",
-		"titleImg": ["http://y.photo.qq.com/img?s=03wx2zFro&l=y.jpg", "The New York City"],
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1664.jpg", "The New York City"],
 		"rows": [
 			{
 				"rowTitle": "Day 1: Boston, MA -- New York City, NY",
-				"coverImg": [["http://y.photo.qq.com/img?s=OsWfzdMgf&l=y.jpg", "The Night Scene of New York City"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1646.jpg", "The Night Scene of New York City"]],
 				"details": [
 					{
 						"link": "",
 						"name": "Took bus from Boston to New York"
 					},{
-						"link": "http://y.photo.qq.com/img?s=JzKowRROi&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1631.jpg",
 						"name": "Empire State Building"
 					}
 				]
 			},{
 				"rowTitle": "Day 2: New York City, NY",
-				"coverImg": [["http://y.photo.qq.com/img?s=6Ct8kGiBS&l=y.jpg", "The Street View in New York City"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1681.jpg", "The Street View in New York City"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=kmy3y7A9C&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1660.jpg",
 						"name": "Statue of Liberty"
 					},{
-						"link": "http://y.photo.qq.com/img?s=pk51H5TJk&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1673.jpg",
 						"name": "Ellis Island Immigration Museum"
 					},{
-						"link": "http://y.photo.qq.com/img?s=MBAkSz2Or&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1676.jpg",
 						"name": "The Wall Street"
 					},{
-						"link": "http://y.photo.qq.com/img?s=byd2fM05x&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1677.jpg",
 						"name": "Trinity Church"
 					},{
-						"link": "http://y.photo.qq.com/img?s=BkRWcZ8Bt&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1684.jpg",
 						"name": "City Hall Park"
 					},{
-						"link": "http://y.photo.qq.com/img?s=B91TMotzy&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1690.jpg",
 						"name": "Brooklyn Bridge"
 					},{
-						"link": "http://y.photo.qq.com/img?s=aisd56mrD&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1688.jpg",
 						"name": "Flushing"
 					}
 				]
 			},{
 				"rowTitle": "Day 3: New York City, NY",
-				"coverImg": [["http://y.photo.qq.com/img?s=5jMXMpldZ&l=y.jpg", "The 9/11 Memorial South Pool"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1728.jpg", "The 9/11 Memorial South Pool"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=W2TXgbJor&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1693.jpg",
 						"name": "Columbia University"
 					},{
 						"link": "",
 						"name": "Riverside Park"
 					},{
-						"link": "http://y.photo.qq.com/img?s=CrL6Xt6mu&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1704.jpg",
 						"name": "Intrepid Sea, Air & Space Museum"
 					},{
-						"link": "http://y.photo.qq.com/img?s=qfBzmjHVQ&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1718.jpg",
 						"name": "Rockefeller Center"
 					},{
-						"link": "http://y.photo.qq.com/img?s=1EmFPVe6K&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1724.jpg",
 						"name": "Grand Central Terminal"
 					},{
-						"link": "http://y.photo.qq.com/img?s=ss0UGL9Pf&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1726.jpg",
 						"name": "United Nations"
 					},{
-						"link": "http://y.photo.qq.com/img?s=2x5caM2tC&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1727.jpg",
 						"name": "National September 11 Memorial & Museum"
 					},{
-						"link": "http://y.photo.qq.com/img?s=dmr3yzANk&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1736.jpg",
 						"name": "Time Square"
 					}
 				]
 			},{
 				"rowTitle": "Day 4: New York City, NY",
-				"coverImg": [["http://y.photo.qq.com/img?s=5qF1mhoDJ&l=y.jpg", "The Central Park"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1771.jpg", "The Central Park"]],
 				"details": [
 					{
-						"link": "http://y.photo.qq.com/img?s=W6Ppgo5bW&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1738.jpg",
 						"name": "American Museum of Natural History"
 					},{
-						"link": "http://y.photo.qq.com/img?s=R0QzWwxo8&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1774.jpg",
 						"name": "Central Park"
 					}
 				]
@@ -351,35 +360,35 @@ multipleDay = [
 		"title": "The Trip in Boston",
 		"time": "5 March - 6 March, 2016 || 4 July - 5 July, 2015",
 		"description": "I visited my friend who was living in Boston twice.",
-		"titleImg": ["http://y.photo.qq.com/img?s=4qE0TVbmh&l=y.jpg", "The Widener Library in Harvard University"],
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0690.JPG", "The Widener Library in Harvard University"],
 		"rows": [
 			{
 				"rowTitle": "",
-				"coverImg": [["http://y.photo.qq.com/img?s=GeccbiDMw&l=y.jpg", "The Downtown in Boston"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0632.jpg", "The Downtown in Boston"]],
 				"details":[
 					{
-						"link": "http://y.photo.qq.com/img?s=A90f5Cn6q&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0629.jpg",
 						"name": "The Freedom Trail"
 					},{
-						"link": "http://y.photo.qq.com/img?s=2y4uUKqN3&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0631.jpg",
 						"name": "Christopher Columbus Waterfront Park"
 					},{
-						"link": "http://y.photo.qq.com/img?s=6lLArPvlX&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0639.jpg",
 						"name": "Berklee College of Music"
 					},{
-						"link": "http://y.photo.qq.com/img?s=G96Zinp1K&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0648.jpg",
 						"name": "Sam Adams Statue"
 					},{
-						"link": "http://y.photo.qq.com/img?s=5Eq6dUbIp&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0685.jpg",
 						"name": "Harvard Square"
 					},{
-						"link": "http://y.photo.qq.com/img?s=dwhOysRUp&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0630.jpg",
 						"name": "Massachusetts Institute of Technology"
 					},{
-						"link": "http://y.photo.qq.com/img?s=aCNdkr8Cq&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0708.JPG",
 						"name": "Chinatown in Boston"
 					},{
-						"link": "http://y.photo.qq.com/img?s=xo9uKwpqm&l=y.jpg",
+						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_1619.jpg",
 						"name": "Boston College"
 					}
 				]
@@ -390,34 +399,63 @@ multipleDay = [
 
 oneDay = [
 	{
+		"id": "blue-ridge",
+		"title": "Blue Ridge Parkway",
+		"time": "10 July, 2017 || 22 October, 2016",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2543.jpg", "A View on Blue Ridge Parkway"],
+		"rows": [
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2833.jpg",
+				"name": "View from a lodge"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2854.jpg",
+				"name": "Little Switzerland"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2847.jpg",
+				"name": "Chestoa View"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2846.jpg",
+				"name": "Linville"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2845.jpg",
+				"name": "Original Mast General Store"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2559.jpg",
+				"name": "Craggy Gardens"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2518.jpg",
+				"name": "Osborne Mountain"
+			}
+		]
+	},{
 		"id": "great-smoky-m",
 		"title": "Great Smoky Mountains",
 		"time": "10 July, 2017",
-		"coverImg": ["http://y.photo.qq.com/img?s=xq7hMzlI6&l=y.jpg", "The Top of the Clingmans Dome"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2755.jpg", "The Top of the Clingmans Dome"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=DeZfjn7Rk&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2750.jpg",
 				"name": "Mountain Farm Museum"
 			},{
-				"link": "http://y.photo.qq.com/img?s=fixsKTRPl&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2764.jpg",
 				"name": "Clingmans Dome"
 			},{
-				"link": "http://y.photo.qq.com/img?s=HpSfnzNyy&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2772.jpg",
 				"name": "Appalachian Trail"
 			},{
-				"link": "http://y.photo.qq.com/img?s=GtNPvb49e&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2774.jpg",
 				"name": "Newfound Gap"
 			},{
-				"link": "http://y.photo.qq.com/img?s=GB4fiZmYe&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2791.jpg",
 				"name": "State Line in Great Smoky Mountains"
 			},{
-				"link": "http://y.photo.qq.com/img?s=4lJ2YjqR0&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2781.jpg",
 				"name": "Laurel Falls"
 			},{
-				"link": "http://y.photo.qq.com/img?s=7426KksHm&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2785.jpg",
 				"name": "The Trail to the Laurel Falls"
 			},{
-				"link": "http://y.photo.qq.com/img?s=htopRLWza&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2790.jpg",
 				"name": "Gatlinburg, TN"
 			}
 		]
@@ -425,13 +463,13 @@ oneDay = [
 		"id": "duke-univ",
 		"title": "Duke University",
 		"time": "9 March, 2017",
-		"coverImg": ["http://y.photo.qq.com/img?s=V0UAsLqs3&l=y.jpg", "The Duke Garden"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2716.jpg", "The Duke Garden"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=5z6XK26Ru&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2720.jpg",
 				"name": "Duke University Chapel"
 			},{
-				"link": "http://y.photo.qq.com/img?s=n8eD8XY2I&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2714.jpg",
 				"name": "Sarah P. Duke Gardens"
 			}
 		]
@@ -439,36 +477,39 @@ oneDay = [
 		"id": "charleston",
 		"title": "Charleston",
 		"time": "29 December, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=A09e83mAk&l=y.jpg", "The Rainbow Row"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2663.jpg", "The Rainbow Row"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=QtXBlTUhM&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2659.jpg",
 				"name": "USS Yorktown CV-10"
 			},{
 				"link": "",
 				"name": "Rainbow Row"
 			},{
-				"link": "",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2668.jpg",
 				"name": "Historic Charleston Foundation"
 			},{
-				"link": "",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2667.jpg",
 				"name": "White Point Garden"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2657.jpg",
+				"name": "Fort Sumter National Monument"
 			}
 		]
 	},{
 		"id": "chimney-rock",
 		"title": "Chimney Rock State Park",
 		"time": "23 October, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=DqNWSQExd&l=y.jpg", "The View from the Top of the Rock"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2568.jpg", "The View from the Top of the Rock"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=xv23x8iQP&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2582.jpg",
 				"name": "Chimney Rock"
 			},{
-				"link": "http://y.photo.qq.com/img?s=3nGA7i4Xf&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2581.jpg",
 				"name": "Skyline"
 			},{
-				"link": "http://y.photo.qq.com/img?s=AhTJz8O3V&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2583.jpg",
 				"name": "Devil's Head"
 			}
 		]
@@ -476,13 +517,13 @@ oneDay = [
 		"id": "raven-rock",
 		"title": "Raven Rock State Park",
 		"time": "5 September, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=N1LRp1FwR&l=y.jpg", "The Middle of the River"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2458.jpg", "The Middle of the River"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=kxnenmgeH&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2474.jpg",
 				"name": "Raven Rock"
 			},{
-				"link": "http://y.photo.qq.com/img?s=DtKjgnoZ7&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2479.jpg",
 				"name": "Cape Fear River"
 			}
 		]
@@ -490,49 +531,52 @@ oneDay = [
 		"id": "pilot-mountain",
 		"title": "Pilot Mountain State Park",
 		"time": "6 August, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=s7kd4no1p&l=y.jpg", "The Pilot Mountain"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2405.jpg", "The Pilot Mountain"],
 		"rows": [
 			{
-				"link": "",
-				"name": "The Trail"
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2404.jpg",
+				"name": "On the Way to the Mountain"
 			}
 		]
 	},{
 		"id": "fort-macon",
 		"title": "Fort Macon State Park",
 		"time": "24 June, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=c6V4A55GP&l=y.jpg", "The Outside of the Fort"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2016.jpg", "The Outside of the Fort"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=S2PXui5rM&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2015.jpg",
 				"name": "The Inside of the Fort"
 			},{
-				"link": "http://y.photo.qq.com/img?s=sfD0PT9Kp&l=y.jpg",
-				"name": "The Beach"
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2011.jpg",
+				"name": "The Seashore outside the Fort"
 			}
 		]
 	},{
 		"id": "virginia-beach",
 		"title": "Virginia Beach",
 		"time": "11 June, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=953cAagQi&l=y.jpg", "The Seashore of the Virginia Beach"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1991.jpg", "The Ocean View of the Virginia Beach"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=Zhs5hcnhd&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1980.jpg",
 				"name": "Neptune Statue"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1986.jpg",
+				"name": "The Seashore of the Virginia Beach"
 			}
 		]
 	},{
 		"id": "new-bern",
 		"title": "New Bern",
 		"time": "25 March, 2016",
-		"coverImg": ["http://y.photo.qq.com/img?s=AeWH3v0En&l=y.jpg", "The First Baptist Church"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2855.jpg", "The Birthplace of Pepsi Cola"],
 		"rows": [
 			{
-				"link": "http://y.photo.qq.com/img?s=YqieD4NS3&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1823.jpg",
 				"name": "Union Point Park"
 			},{
-				"link": "http://y.photo.qq.com/img?s=Z8QR1uzJP&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1825.jpg",
 				"name": "Historic Downtown"
 			}
 		]
@@ -540,11 +584,11 @@ oneDay = [
 		"id": "altantic-beach",
 		"title": "Atlantic Beach",
 		"time": "19 July, 2015",
-		"coverImg": ["http://y.photo.qq.com/img?s=T5NPqicuf&l=y.jpg", "The Seashore of the Atlantic Beach"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_0770.jpg", "The Seashore of the Atlantic Beach"],
 		"rows": [
 			{
 				"link": "",
-				"name": "The seashore"
+				"name": "The Seashore of the Atlantic Beach"
 			}
 		]
 	}
@@ -553,6 +597,25 @@ oneDay = [
 events = [
 	
 	{
+		"id": "concert",
+		"list": "Concert-JA",
+		"title": "Concert -- Jason Aldean",
+		"time": "13 July, 2017",
+		"description": "Jason Aldean is an American country music singer. He has his tour this year, and one stop is at PNC Music Pavillon, Charlotte. Therefore, we attend his concert. This is my first time to attend somebody's concert. I was really shocked by the atmosphere there. The whole concert is divided into three stages. ",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2812.jpg", "The Second Stage"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2811.jpg",
+				"name": "Stage 1: Singer: Kane Brown"
+			},{
+				"link": "",
+				"name": "Stage 2: Singer: Unknown"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2817.jpg",
+				"name": "Stage 1: Singer: Jason Aldean"
+			}
+		]
+	},{
 		"id": "my-ceremony",
 		"list": "Graduation",
 		"title": "My Graduation Ceremony",
@@ -561,16 +624,19 @@ events = [
 		"coverImg": ["images/diploma.jpg", "The Diploma of My Master Degree"],
 		"rows":[
 			{
-				"link": "http://y.photo.qq.com/img?s=IgcnNmuCg&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2640.jpg",
 				"name": "The Moment"
 			},{
-				"link": "http://y.photo.qq.com/img?s=ZFJEUSgxS&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2638.jpg",
 				"name": "The East Carolina University"
 			},{
-				"link": "http://y.photo.qq.com/img?s=asiULIRSA&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2629.jpg",
+				"name": "The Fountain"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2635.jpg",
 				"name": "The Pirates"
 			},{
-				"link": "http://y.photo.qq.com/img?s=gmuoZFU5M&l=y.jpg",
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/cow.jpg",
 				"name": "The Pirate Cow"
 			}
 		]

@@ -23,7 +23,7 @@ function expInitialize(){
 							'<ul class="list-group">';
 
 				for (var d in exp.discription){
-					content += '<li><p class="lead">' + exp.discription[d] + '</p></li>';
+					content += '<li><p class="lead text-justify">' + exp.discription[d] + '</p></li>';
 				}
 
 				for(var r in exp.reference){
@@ -41,7 +41,7 @@ function expInitialize(){
 							'<ul class="list-group">';
 
 				for (var d in exp.discription){
-					content += '<li><p class="lead">' + exp.discription[d] + '</p></li>';
+					content += '<li><p class="lead text-justify">' + exp.discription[d] + '</p></li>';
 				}
 
 				for(var r in exp.reference){
@@ -72,7 +72,7 @@ function expInitialize(){
 							'<ul class="list-group">';
 
 				for (var d in exp.discription){
-					content += '<li><p class="lead">' + exp.discription[d] + '</p></li>';
+					content += '<li><p class="lead text-justify">' + exp.discription[d] + '</p></li>';
 				}
 
 				for(var r in exp.reference){
@@ -94,7 +94,7 @@ function expInitialize(){
 							'<ul class="list-group">';
 
 				for (var d in exp.discription){
-					content += '<li><p class="lead">' + exp.discription[d] + '</p></li>';
+					content += '<li><p class="lead text-justify">' + exp.discription[d] + '</p></li>';
 				}
 
 				for(var r in exp.reference){
@@ -379,11 +379,15 @@ function usaMulInitialize(){
 			}
 			
 			if (s == trip.rows.length - 1) {
-				mulContent += '</div><p class="pull-right"><a href="#trip-detail-usa">Back to List</a></p><hr class="profile_divider">';
+				mulContent += '</div>';
 			} else {
 				mulContent += '</div><hr>';
 			}
+
+			//alert(mulContent);
 		}
+
+		mulContent += '</div><p class="pull-right"><a href="#trip-detail-usa">Back to List</a></p><hr class="profile_divider">';
 	}
 
 	document.getElementById("multip-days").innerHTML = mulList;
@@ -412,9 +416,15 @@ function eventInitialize(){
 							'<ul>';
 
 			for (var r in eve.rows){
-				eveContent += '<li><a href="' + eve.rows[r].link + 
-				'" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">' + 
-				eve.rows[r].name + '</a></li>';
+
+				if (eve.rows[r].link != "") {
+					eveContent += '<li><a href="' + eve.rows[r].link + 
+					'" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">' + 
+					eve.rows[r].name + '</a></li>';
+				} else {
+					eveContent += '<li>' + eve.rows[r].name + '</li>';
+				}
+
 			}
 
 			eveContent += '</ul></div>';
@@ -443,9 +453,15 @@ function eventInitialize(){
 							'<ul>';
 
 			for (var r in eve.rows){
-				eveContent += '<li><a href="' + eve.rows[r].link + 
-				'" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">' + 
-				eve.rows[r].name + '</a></li>';
+
+				if (eve.rows[r].link != "") {
+					eveContent += '<li><a href="' + eve.rows[r].link + 
+					'" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">' + 
+					eve.rows[r].name + '</a></li>';
+				} else {
+					eveContent += '<li>' + eve.rows[r].name + '</li>';
+				}
+				
 			}
 
 			eveContent += '</ul></div>';

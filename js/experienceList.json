@@ -2,7 +2,7 @@ experienceList = [
 	{
 		"jobTitle": "Full Stack Web Developer",
 		"duration": "April 2017 - Present",
-		"discription": ["Build web-based application running on MySQL for specific functionality using HTML, CSS, PHP, Jquery from front-end to back-end", "Experience using Bootstrap to build the front-end of the application"],
+		"discription": ["Build web-based application running on MySQL from front-end to back-end for video uploading and database administration by using HTML, CSS, PHP and Jquery", "Develop the front-end of the application based on the Bootstrap framework"],
 		"reference": ["http://hawk.aos.ecu.edu/videoupload/"],
 		"imageSrc": ["images/project1.jpg"]
 	},{
@@ -14,7 +14,7 @@ experienceList = [
 	},{
 		"jobTitle": "Full Stack Web Developer",
 		"duration": "February 2016 - August 2016",
-		"discription": ["Developed a database driven website in PHP 5.3 running on MySQL from scratch for the Global Academic Initiatives (GAI) of East Carolina University (ECU) to manage their partnership, and knew how to develop PHP with MySQL", "Wrote complex SQL queries to support the searching functionality of the system", "Developed a web-based functionality that generates dynamic data from MySQL database based on user’s preference by using AJAX, and understood how AJAX applies into website development", "Experienced the way that accessing the Document Object Model (DOM) interface via Javascript and JQuery, and knew how they apply into CSS to create high-quality front-end website development"],
+		"discription": ["Developed a database driven website in PHP 5.3 running on MySQL from scratch for the Global Academic Initiatives (GAI) of East Carolina University (ECU) to manage their partnership, and knew how to develop web-based application in PHP and MySQL", "Wrote complex SQL queries to support the searching functionality of the system", "Applied AJAX in Web development to support the web page updating without reloading, and understood how AJAX applies into website development", "Applied Javascript and Jquery to develop the front-end of the application, and knew how they apply into CSS to create high-quality front-end website development"],
 		"reference": ["http://hawk.aos.ecu.edu/"],
 		"imageSrc": []
 	},{
