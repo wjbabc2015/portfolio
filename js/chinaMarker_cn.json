@@ -1,0 +1,149 @@
+chinaMarker = [
+  {
+    "position": [27.868298, 112.881419],
+    "title": "湘潭",
+    "type": "general",
+    "info": "这是我的家乡"
+  }, {
+    "position": [28.167903, 112.930417],
+    "title": "长沙",
+    "type": "general",
+    "info": "中南大学"
+  }, {
+    "position": [27.937941, 109.614286],
+    "title": "凤凰",
+    "type": "general",
+    "info": "<div class='container markerinfo'><h4><a href='#hunan'>湘西凤凰之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>7/14 - 7/17, 2013</p></li><li><h5>旅游景点:</h5><ul><li>矮寨大桥</li><li>山江苗寨</li><li>天龙峡</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [29.012843, 110.435576],
+    "title": "张家界",
+    "type": "general",
+    "info": "<div class='container markerinfo'><h4><a href='#hunan'>张家界之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>3.2010</p></li><li><h5>旅游景点:</h5><ul><li>张家界国家森林公园</li></ul></li></ul></div>"
+
+  }, {
+    "position": [27.232314, 112.737443],
+    "title": "南岳衡山",
+    "type": "general",
+    "info": "<div class='container markerinfo'><h4><a href='#hunan'>横山之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><ul><li>暑假, 2012</li><li>暑假, 2013</li><li>暑假, 2014</li></ul></li><li><h5>旅游景点:</h5><ul><li>南岳衡山</li></ul></li></ul></div>"
+  }, {
+    "position": [36.630685, 101.769125],
+    "title": "西宁",
+    "type": "unique",
+    "info": "<div class='container markerinfo'><h4><a href='#qinghai'>青海湖骑行</a></h4><ul class='list-group'><li><h5>时间:</h5><p>8/25 - 8/28, 2013</p></li><li><h5>旅游景点:</h5><ul><li>G109</li><li>G315</li><li>S206</li><li>......</li></ul></div>"
+  }, {
+    "position": [34.261571, 108.943856],
+    "title": "西安",
+    "type": "general",
+    "info": "<div class='container markerinfo'><h4><a href='#shanxi'>西安之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>8/30 - 8/31, 2013</p></li><li><h5>旅游景点:</h5><ul><li>钟鼓楼</li><li>秦始皇陵</li><li>皇陵兵马俑</li><li>华清池</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [29.513601, 106.513479],
+    "title": "重庆",
+    "type": "general" ,
+    "info": "<div class='container markerinfo'><h4><a href='#chongqing'>重庆之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>9/1 - 9/2, 2013</p></li><li><h5>旅游景点:</h5><ul><li>武隆国家地质公园</li><li>洪崖洞</li><li>磁器口</li><li>朝天门</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [30.470756, 109.206379],
+    "title": "恩施",
+    "type": "general",
+    "info": "<div class='container markerinfo'><h4><a href='#hubei'>恩施之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>9/4 - 9/5, 2013</p></li><li><h5>旅游景点:</h5><ul><li>恩施大峡谷</li><li>云龙地峡</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [30.722995, 114.365653],
+    "title": "武汉",
+    "type": "general" ,
+    "info": "<div class='container markerinfo'><h4><a href='#hubei'>武汉之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>9/6, 2013</p></li><li><h5>旅游景点:</h5><ul><li>黄鹤楼</li><li>首义广场</li><li>武汉长江大桥</li><li>晴川阁</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [24.906001, 102.770531],
+    "title": "昆明",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#yunnan'>昆明之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>8.2009</p></li><li><h5>旅游景点:</h5><ul><li>滇池</li><li>云南民俗村</li><li>西山森林公园</li><li>石林</li><li>九乡</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [25.826807, 100.248982],
+    "title": "大理",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#yunnan'>大理之旅</a></h4><ul class='list-group'><li><h5>时间:</h5><p>8.2009</p></li><li><h5>旅游景点:</h5><ul><li>崇圣寺三塔</li><li>洱海</li><li>蝴蝶泉</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [26.961976, 100.222852],
+    "title": "丽江",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#yunnan'>Trip in Lijiang</a></h4><ul class='list-group'><li><h5>时间:</h5><p>August, 2009</p></li><li><h5>旅游景点:</h5><ul><li>Old Town of Lijiang</li><li>Black Dragon Pool</li><li>Shuhe Ancient Town</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [28.785134, 115.845282],
+    "title": "南昌",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4>南昌之行</h4><ul class='list-group'><li><h5>时间:</h5><p>2008</p></li><li><h5>旅游景点:</h5><ul><li>滕王阁</li><li>八一南昌起义纪念塔</li><li>......</ul></li></ul></div>"
+  }, {
+    "position": [22.254041, 114.053040],
+    "title": "香港",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#hongkong'>玩在香港</a></h4><ul class='list-group'><li><h5>时间:</h5><p>12/9 - 2/20, 2014</p></li><li><h5>旅游景点:</h5><ul><li>维多利亚港</li><li>尖沙咀</li><li>太平山顶</li><li>大屿山</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [22.196645, 113.549472],
+    "title": "澳门",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#macau'>玩在澳门</a></h4><ul class='list-group'><li><h5>时间:</h5><p>2/21 - 2/22, 2014</p></li><li><h5>旅游景点:</h5><ul><li>澳门威尼斯人</li><li>大三巴牌坊</li><li>东望洋灯塔</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [22.252877, 113.564021],
+    "title": "珠海",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#guangdong'>玩在珠海</a></h4><ul class='list-group'><li><h5>时间:</h5><p>2/23, 2014</p></li><li><h5>旅游景点:</h5><ul><li>珠海渔女</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [23.293237, 113.221587],
+    "title": "广州",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#guangdong'>玩在广州</a></h4><ul class='list-group'><li><h5>时间:</h5><ul><li>7.2010</li><li>12.2014</li></ul></li><li><h5>旅游景点:</h5><ul><li>越秀山</li><li>黄埔军校</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [22.629744, 113.822081],
+    "title": "深圳",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#guangdong'>玩在深圳</a></h4><ul class='list-group'><li><h5>时间:</h5><ul><li>7.2010</li><li>7/8, 2014</li></ul></li><li><h5>旅游景点:</h5><ul><li>锦绣中华</li><li>世界之窗</li><li>东门步行街</li><li>大梅沙海滨公园</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [30.392374, 120.153367],
+    "title": "杭州",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4>玩在杭州</h4><ul class='list-group'><li><h5>时间:</h5><p>1999</p></li><li><h5>旅游景点:</h5><ul><li>西湖</li><li>岳王庙</li><li>灵隐寺</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [31.328144, 121.548360],
+    "title": "上海",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4>玩在上海</h4><ul class='list-group'><li><h5>时间:</h5><p>2010</p></li><li><h5>旅游景点:</h5><ul><li>上海世博会</li><li>豫园</li><li>外滩</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [31.178087, 120.679954],
+    "title": "苏州",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#jiangsu'>玩在苏州</a></h4><ul class='list-group'><li><h5>时间:</h5><p>7.2011 - 12.2011</p></li><li><h5>旅游景点:</h5><ul><li>周庄</li><li>同里</li><li>木渎</li><li>沧浪亭</li><li>七里山塘</li><li>The 拙政园</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [39.993934, 116.436567],
+    "title": "北京",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#beijing'>玩在北京</a></h4><ul class='list-group'><li><h5>时间:</h5><ul><li>8.2008</li><li>1.2010</li><li>5.2013</li></ul></li><li><h5>旅游景点:</h5><ul><li>故宫</li><li>长城</li><li>天安门广场</li><li>天坛</li><li>颐和园</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [41.880260, 123.366343],
+    "title": "沈阳",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#northeast'>玩在沈阳</a></h4><ul class='list-group'><li><h5>时间:</h5><ul><li>8.2008</li><li>1.2010</li></ul></li><li><h5>旅游景点:</h5><ul><li>张氏帅府</li><li>沈阳故宫</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [40.713252, 122.240215],
+    "title": "营口",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#northeast'>玩在营口</a></h4><ul class='list-group'><li><h5>时间:</h5><p>8.2008</p></li><li><h5>旅游景点:</h5><ul><li>千山</li></ul></li></ul></div>"
+  }, {
+    "position": [39.009926, 121.526104],
+    "title": "大连",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#northeast'>玩在大连</a></h4><ul class='list-group'><li><h5>时间:</h5><p>5.2013</p></li><li><h5>旅游景点:</h5><ul><li>星海广场</li><li>滨海路</li></ul></li></ul></div>"
+  }, {
+    "position": [40.286301, 123.290597],
+    "title": "岫岩",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#northeast'>玩在岫岩</a></h4><ul class='list-group'><li><h5>时间:</h5><p>5.2013</p></li><li><h5>Tips:</h5><p>购物</p></li></ul></div>"
+  }, {
+    "position": [45.912333, 126.596248],
+    "title": "哈尔滨",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4><a href='#northeast'>玩在哈尔滨</a></h4><ul class='list-group'><li><h5>时间:</h5><p>1.2010</p></li><li><h5>旅游景点:</h5><ul><li>圣索菲亚大教堂</li><li>冰雪大世界</li><li>......</li></ul></li></ul></div>"
+  }, {
+    "position": [25.356802, 110.212027],
+    "title": "桂林",
+    "type": "general",
+    "info": "<div class='container markerinfo'> <h4>玩在桂林</h4><ul class='list-group'><li><h5>时间:</h5><p>1994</p></li><li><h5>旅游景点:</h5><ul><li>桂林国家森林公园</li></ul></li></ul></div>"
+  }
+];

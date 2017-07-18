@@ -40,6 +40,11 @@ usaMarker = [
 		"type": "general",
 		"info": "<a href='#chimney-rock'>Chimney Rock State Park</a>"
 	}, {
+		"position": [35.586582, -83.434352],
+		"title": "Great Smoky Moutains National Park, North Carolina",
+		"type": "general",
+		"info": "<div class = 'container markerinfo'><h4><a href='#great-smoky-m'>Trip in Great Smoky Moutains</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>10 July, 2017</p></li><li><h5>tourist attractions:</h5><ul><li>Mountain Farm Museum</li><li>Bradley Fork Trail Trailhead</li><li>Clingmans Dome</li><li>Newfound Gap</li><li>Laurel Falls</li></ul></li></ul></div>"
+	}, {
 		"position": [36.852541, -75.976130],
 		"title": "Virginia Beach, Virginia",
 		"type": "general",
@@ -63,7 +68,7 @@ usaMarker = [
 		"position": [40.735538, -74.000383],
 		"title": "New York, New York",
 		"type": "general",
-		"info": "<div class = 'container markerinfo'><h4><a href='#trip-new-york'>Road Trip in New York</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>6 March - 9 March, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Empire State Building</li><li>Statue of Liberty National Monument</li><li>Brooklyn Bridge</li><li>American Museum of Natural History</li><li>Intrepid Sea, Air & Space Museum</li><li>Columbia University</li><li>Central Park</li><li>9/11 Tribute Museum</li><li>Times Square</li><li>......</li></ul></li></ul></div>"
+		"info": "<div class = 'container markerinfo'><h4><a href='#trip-new-york'>Trip in New York</a></h4><ul class = 'list-group'><li><h5>Time:</h5><p>6 March - 9 March, 2016</p></li><li><h5>tourist attractions:</h5><ul><li>Empire State Building</li><li>Statue of Liberty National Monument</li><li>Brooklyn Bridge</li><li>American Museum of Natural History</li><li>Intrepid Sea, Air & Space Museum</li><li>Columbia University</li><li>Central Park</li><li>9/11 Tribute Museum</li><li>Times Square</li><li>......</li></ul></li></ul></div>"
 	}, {
 		"position": [32.794041, -96.879368],
 		"title": "Dallas, Texas",

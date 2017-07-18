@@ -1,46 +1,46 @@
 multipleDay = [
 	{
 		"id": "trip-DC",
-		"list": "Washington",
-		"title": "The Washington D.C.",
-		"time": "30 July - 1 August, 2016",
-		"description": "Washington D.C. is the capitol of the United State of America. It is worth for paying a visit when traveling in the USA. Therefore, I planned a two-day trip there just for the historic landmarks. I also planned to go the Great Falls National Park, but I didn't have enough time because of the traffic jam between the Richmond and Washington D.C.",
-		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2374.jpg", "The White House"],
+		"list": "华盛顿特区",
+		"title": "华盛顿特区",
+		"time": "7/30 - 8/1, 2016",
+		"description": "华盛顿特区是美国的首都。既然老妈第一次来美国，带她去华盛顿走一圈是很有必要的。我计划了一个两天的行程，其中还包括附近一个国家公园。因为堵车天气等原因，国家公园未能成行。我们就在白宫，华盛顿纪念牌等处闲逛了一圈。另外，在去华盛顿的途中，我们还顺道游览了威廉玛丽学院，坐落在一个古色古香的小镇里。",
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2374.jpg", "白宫"],
 		"rows": [
 			{
 				"rowTitle": "Day 1: Greenville, NC -- Washington D.C.",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2373.jpg", "The College of William & Mary"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2373.jpg", "威廉玛丽学院"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2367.jpg",
-						"name": "The College of William & Mary"
+						"name": "威廉玛丽学院"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2376.jpg",
-						"name": "The White House"
+						"name": "白宫"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2378.jpg",
-						"name": "The Chinatown"
+						"name": "华盛顿的中国城"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2380.jpg",
-						"name": "The United States Capitol (night scene)"
+						"name": "国会大厦（夜景）"
 					}
 				]
 			},{
 				"rowTitle": "Day 2: Washington D.C. -- Greenville, NC",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2386.jpg", "The National Mall"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2386.jpg", "国家广场"]],
 				"details": [
 					{
 						"link": "",
-						"name": "The National Mall"
+						"name": "国家广场"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2857.jpg",
-						"name": "The Washington Monument"
+						"name": "华盛顿纪念碑"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2394.jpg",
-						"name": "The World War II Memorial"
+						"name": "二战纪念馆"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2856.jpg",
-						"name": "The Lincoln Memorial"
+						"name": "林肯纪念馆"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/DC/IMG_2389.JPG",
 						"name": "The Lincoln Memorial Reflecting Pool"
@@ -50,76 +50,76 @@ multipleDay = [
 		]		
 	},{
 		"id": "outer-banks",
-		"list": "Outer-Banks-NC",
-		"title": "The Trip in Outer Banks, North Carolina",
-		"time": "21 July - 22 July, 2016",
-		"description": "North Carolina looks like a rectangle with its length is really long. The Great Smoky Mountain locates at West and the Outer Banks locates at East. We traveled in the Outer Banks from north to south, then came back to the mainland via ferry named by East Carolina University. I have been there twice during 2016 to 2017. Within these two trips, I visited three lighthouses and enjoyed the wonderful wave from the Atlantic Ocean.",
-		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2360.jpg", "The Trip Path"],
+		"list": "北卡外滩",
+		"title": "北卡罗来纳外滩之行",
+		"time": "7/21 - 7/22, 2016",
+		"description": "北卡罗来纳州就像一个长方形，它的西边是阿巴拉契亚山脉，而东边则是大西洋。这趟旅行计划两天，从北到南，最后乘坐渡轮回到大陆。第一天晚上歇在了海边的旅馆。旅馆坐落在沙滩上，距离海岸不到50米。北卡罗来纳州内总共十三艘渡轮，分别以州内十三所公立大学命名。我很幸运的赶上了东卡罗莱纳大学的船。",
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2360.jpg", "旅行路线"],
 		"rows": [
 			{
-				"rowTitle": "The Lighthouses in Outer Banks",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2339.jpg", "The Cape Hatteras Lighthouse"]],
+				"rowTitle": "外滩上的灯塔",
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2339.jpg", "哈特拉斯角灯塔"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2327.jpg",
-						"name": "The Bodie Island Lighthouse"
+						"name": "博迪岛灯塔"
 					},{
 						"link": "",
-						"name": "The Cape Hatteras Lighthouse"
+						"name": "哈特拉斯角灯塔"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2348.jpg",
-						"name": "The Ocracoke Lighthouse"
+						"name": "奥克拉科克岛灯塔"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2708.jpg",
-						"name": "The Currituck Beach Lighthouse"
+						"name": "柯里塔克海滩灯塔"
 					}
 				]
 			},{
-				"rowTitle": "The Seashore in Outer Banks",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2333.jpg", "The Atlantic Ocean in Buxton"]],
+				"rowTitle": "外滩上的海滩",
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2333.jpg", "大西洋"]],
 				"details": [
 					{
 						"link": "",
-						"name": "The Hatteras Island"
+						"name": "哈特拉斯岛"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/psb.jpg",
-						"name": "Swimming in the Ocean"
+						"name": "海中游泳"
 					}
 				]
 			},{
-				"rowTitle": "The Wright Brothers National Memorial",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2331.jpg", "The Wright Brothers National Memorial"]],
+				"rowTitle": "怀特兄弟国家纪念馆",
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2331.jpg", "怀特兄弟国家纪念馆"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2332.jpg",
-						"name": "Kill Devil Hills"
+						"name": "屠魔岗"
 					}
 				]
 			},{
-				"rowTitle": "The Ferry in North Carolina",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2351.jpg", "The Ferry with the symbol of East Carolina University"]],
+				"rowTitle": "北卡罗来纳州的渡轮",
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/outer-bank/IMG_2351.jpg", "带ECU标志的渡轮"]],
 				"details": [
 					{
 						"link": "",
-						"name": "Hatteras -- Ocracoke"
+						"name": "哈特拉斯岛 -- 奥克拉科克岛"
 					},{
 						"link": "",
-						"name": "Ocracoke -- Swanquarter"
+						"name": "奥克拉科克岛 -- Swanquarter"
 					}
 				]
 			}
 		]		
 	},{
 		"id": "RTEWC",
-		"list": "Road-Trip-E-W",
-		"title": "The Road Trip from East to West",
-		"time": "2 July - 16 July, 2016",
-		"description": "My mom visited me from China in summer, 2016. To make her trip more impressive, I planned this road trip across the country. To finish my plan, I have to drive around 7000 miles within 14 days by myself, and I did it! The total cost is $3772 including SUV rental, gas, food and hotels. To conclude, this is a really memorable experience in my whole life.",
-		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-2.jpg", "The Trip Path"],
+		"list": "东西自驾游",
+		"title": "美国从东到西自驾游",
+		"time": "7/2 - 7/16, 2016",
+		"description": "老妈在暑假从国内过来看望我。趁这个机会，我打算带她欣赏下异国的大好河山。因此，我租了两周的SUV计划了这场较为疯狂的旅程。总行程大概7000麦左右，约合10000多公里，跨越美国22个州。总计花费3772刀，包括了租车，吃饭，加油，住宿以及其他开销。",
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-2.jpg", "自驾游线路"],
 		"rows": [
 			{
 				"rowTitle": "Day 1 - 3: Charlotte, NC -- Flagstaff, AZ",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2068.jpg", "The Scene of the New Mexico"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2068.jpg", "新墨西哥州一隅"]],
 				"details": [
 					{
 						"link": "",
@@ -155,83 +155,83 @@ multipleDay = [
 				]
 			},{
 				"rowTitle": "Day 4 - 6: Flagstaff, AZ -- Los Angeles, CA",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-1.jpg", "The Grand Canyon"], ["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9371.jpg", "The Horseshoe Bend"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-1.jpg", "科罗拉多大峡谷"], ["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9371.jpg", "马蹄湾"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2079.jpg",
-						"name": "Grand Canyon National Park, AZ"
+						"name": "大峡谷国家公园, AZ"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9339.jpg",
-						"name": "Desert View Watchtower, AZ"
+						"name": "沙漠景观观望台, AZ"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9315.jpg",
-						"name": "Colorado River"
+						"name": "科罗拉多河"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9347.jpg",
-						"name": "Little Colorado River Navajo Tribal Park, AZ"
+						"name": "小科罗拉多河纳瓦霍族保留地, AZ"
 					},{
 						"link": "",
-						"name": "Horseshoe Bend, AZ"
+						"name": "马蹄湾, AZ"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2138.jpg",
-						"name": "Page, AZ"
+						"name": "佩奇, AZ"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2139.jpg",
-						"name": "Zion National Park, UT"
+						"name": "锡安国家公园, UT"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2150.jpg",
-						"name": "Las Vegas, NV"
+						"name": "拉斯维加斯, NV"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2160.jpg",
-						"name": "Hoover Dam, NV"
+						"name": "胡佛水坝, NV"
 					}
 				]
 			},{
 				"rowTitle": "Day 7 - 9: Los Angeles, CA -- Salt Lake City, UT",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9404.jpg", "The Falls in Yosemite"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9404.jpg", "优胜美地里的瀑布"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2163.jpg",
-						"name": "Hollywood Sign, CA"
+						"name": "好莱坞, CA"
 					},{
 						"link": "",
-						"name": "Beverly Hills, CA"
+						"name": "比弗利山庄, CA"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2169.jpg",
 						"name": "Solvang, CA",
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2179.jpg",
-						"name": "California State Route 1"
+						"name": "加州一号公路"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9387.jpg",
-						"name": "Yosemite National Park, CA"
+						"name": "优胜美地国家公园, CA"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9788.jpg",
-						"name": "U.S. Route 80"
+						"name": "80号州际公路"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_9768.jpg",
-						"name": "The Salt Flat"
+						"name": "盐地"
 					}
 				]
 			},{
 				"rowTitle": "Day 10 - 12: Salt Lake City, UT -- Lincoln, NE",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2291.jpg", "The Old Faithful Geyser"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2291.jpg", "老忠实喷泉"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2251.jpg",
-						"name": "Antelope Island State Park, UT"
+						"name": "Antelope 岛州立公园, UT"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2252.jpg",
-						"name": "Temple Square, UT"
+						"name": "圣殿广场, UT"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_0065.jpg",
 						"name": "Kemmerer, Wyoming"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_0282.jpg",
-						"name": "Grand Teton National Park, WY"
+						"name": "大提顿国家公园, WY"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2282.jpg",
-						"name": "Yellowstone National Park, WY"
+						"name": "黄石国家公园, WY"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/DSC_0595.jpg",
 						"name": "Cheyenne, WY"
@@ -239,7 +239,7 @@ multipleDay = [
 				]
 			},{
 				"rowTitle": "Day 13 - 14: Lincoln, NE -- Charlotte, NC",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-7.jpg", "The State Line in Great Smoky Mountains"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/ew-7.jpg", "大烟山中的州界"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/EtoW/IMG_2301.jpg",
@@ -265,131 +265,131 @@ multipleDay = [
 		]		
 	},{
 		"id": "trip-new-york",
-		"list": "New-York",
-		"title": "The Trip in New York City",
-		"time": "6 March - 9 March, 2016",
-		"description": "I went to Boston for visiting my friend during spring break. However, he was buzy during weekdays. I decided to pay a visit to New York for the next several days. It was the first time that I took a bus from one city to another in the USA. Actually, it is not comfortable to have more than four hours trip on bus. Therefore, I will not do it in the future. Finally, I missed my flight because of the dunkin donuts. I have to overnight at JFK for the next available flight.",
-		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1664.jpg", "The New York City"],
+		"list": "纽约",
+		"title": "纽约之行",
+		"time": "3/6 - 3/9, 2016",
+		"description": "2016年春假，我再次去了波士顿拜访我同学。为了打发剩下的时间，我计划利用这四天的领略美国大都会 -- 纽约。我从波士顿乘坐了四个多小时的大巴到达了纽约曼哈顿。最后，从纽约肯尼迪国际机场乘飞机回村里。悲剧的是，我第一次错过了航班，在机场度过了郁闷的一夜。",
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1664.jpg", "纽约一隅"],
 		"rows": [
 			{
 				"rowTitle": "Day 1: Boston, MA -- New York City, NY",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1646.jpg", "The Night Scene of New York City"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1646.jpg", "纽约夜景"]],
 				"details": [
 					{
 						"link": "",
-						"name": "Took bus from Boston to New York"
+						"name": "从波士顿乘坐大巴到纽约"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1631.jpg",
-						"name": "Empire State Building"
+						"name": "帝国大厦"
 					}
 				]
 			},{
 				"rowTitle": "Day 2: New York City, NY",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1681.jpg", "The Street View in New York City"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1681.jpg", "纽约的街头"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1660.jpg",
-						"name": "Statue of Liberty"
+						"name": "自由女神像"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1673.jpg",
-						"name": "Ellis Island Immigration Museum"
+						"name": "埃利斯岛移民博物馆"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1676.jpg",
-						"name": "The Wall Street"
+						"name": "华尔街"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1677.jpg",
-						"name": "Trinity Church"
+						"name": "纽约三一教堂"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1684.jpg",
-						"name": "City Hall Park"
+						"name": "纽约市政厅"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1690.jpg",
-						"name": "Brooklyn Bridge"
+						"name": "布鲁克林大桥"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1688.jpg",
-						"name": "Flushing"
+						"name": "法拉盛"
 					}
 				]
 			},{
 				"rowTitle": "Day 3: New York City, NY",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1728.jpg", "The 9/11 Memorial South Pool"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1728.jpg", "911南楼纪念陵园"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1693.jpg",
-						"name": "Columbia University"
+						"name": "哥伦比亚大学"
 					},{
 						"link": "",
-						"name": "Riverside Park"
+						"name": "河滨公园"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1704.jpg",
-						"name": "Intrepid Sea, Air & Space Museum"
+						"name": "无畏号海洋航天航空博物馆"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1718.jpg",
-						"name": "Rockefeller Center"
+						"name": "洛克菲勒中心"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1724.jpg",
-						"name": "Grand Central Terminal"
+						"name": "中央车站"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1726.jpg",
-						"name": "United Nations"
+						"name": "联合国大厦"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1727.jpg",
-						"name": "National September 11 Memorial & Museum"
+						"name": "911国家纪念馆"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1736.jpg",
-						"name": "Time Square"
+						"name": "时代广场"
 					}
 				]
 			},{
 				"rowTitle": "Day 4: New York City, NY",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1771.jpg", "The Central Park"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1771.jpg", "中央公园"]],
 				"details": [
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1738.jpg",
-						"name": "American Museum of Natural History"
+						"name": "美国自然历史博物馆"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/new-york/IMG_1774.jpg",
-						"name": "Central Park"
+						"name": "中央公园"
 					}
 				]
 			}
 		]		
 	},{
 		"id": "trip-boston",
-		"list": "Boston",
-		"title": "The Trip in Boston",
-		"time": "5 March - 6 March, 2016 || 4 July - 5 July, 2015",
-		"description": "I visited my friend who was living in Boston twice.",
-		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0690.JPG", "The Widener Library in Harvard University"],
+		"list": "波士顿",
+		"title": "波士顿之行",
+		"time": "3/5 - 3/6, 2016 || 7/4 - 7/5, 2015",
+		"description": "我前前后后去过波士顿三次，两次乘飞机，一次自驾。",
+		"titleImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0690.JPG", "哈佛大学的Widener图书馆"],
 		"rows": [
 			{
 				"rowTitle": "",
-				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0632.jpg", "The Downtown in Boston"]],
+				"coverImg": [["https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0632.jpg", "波士顿城区"]],
 				"details":[
 					{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0629.jpg",
-						"name": "The Freedom Trail"
+						"name": "自由之路步道"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0631.jpg",
-						"name": "Christopher Columbus Waterfront Park"
+						"name": "克里斯托弗·哥伦布海滨公园"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0639.jpg",
-						"name": "Berklee College of Music"
+						"name": "伯克利音乐学院"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0648.jpg",
-						"name": "Sam Adams Statue"
+						"name": "Sam Adams雕像"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0685.jpg",
-						"name": "Harvard Square"
+						"name": "哈佛广场"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0630.jpg",
-						"name": "Massachusetts Institute of Technology"
+						"name": "麻省理工学院"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_0708.JPG",
-						"name": "Chinatown in Boston"
+						"name": "波士顿中国城"
 					},{
 						"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/boston/IMG_1619.jpg",
-						"name": "Boston College"
+						"name": "波士顿学院"
 					}
 				]
 			}
@@ -400,60 +400,60 @@ multipleDay = [
 oneDay = [
 	{
 		"id": "blue-ridge",
-		"title": "Blue Ridge Parkway",
-		"time": "15 July, 2017 || 22 October, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2543.jpg", "A View on Blue Ridge Parkway"],
+		"title": "蓝岭公路",
+		"time": "7/15, 2017 || 10/22, 2016",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2543.jpg", "蓝岭公路上"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2833.jpg",
-				"name": "View from a lodge"
+				"name": "小木屋的外景"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2854.jpg",
-				"name": "Little Switzerland"
+				"name": "小瑞士"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2847.jpg",
-				"name": "Chestoa View"
+				"name": "Chestoa 景观"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2846.jpg",
 				"name": "Linville"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2845.jpg",
-				"name": "Original Mast General Store"
+				"name": "Original Mast 百货商店"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2559.jpg",
-				"name": "Craggy Gardens"
+				"name": "景观：崎岖的花园"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2518.jpg",
-				"name": "Osborne Mountain"
+				"name": "奥斯本山"
 			}
 		]
 	},{
 		"id": "great-smoky-m",
-		"title": "Great Smoky Mountains",
-		"time": "10 July, 2017",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2755.jpg", "The Top of the Clingmans Dome"],
+		"title": "大烟山国家公园",
+		"time": "7/10, 2017",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2755.jpg", "克灵曼斯峰顶"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2750.jpg",
-				"name": "Mountain Farm Museum"
+				"name": "山中农场博物馆"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2764.jpg",
-				"name": "Clingmans Dome"
+				"name": "克灵曼斯峰"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2772.jpg",
-				"name": "Appalachian Trail"
+				"name": "阿巴拉契亚步道"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2774.jpg",
 				"name": "Newfound Gap"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2791.jpg",
-				"name": "State Line in Great Smoky Mountains"
+				"name": "在大烟山中的州界"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2781.jpg",
-				"name": "Laurel Falls"
+				"name": "Laurel 瀑布"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2785.jpg",
-				"name": "The Trail to the Laurel Falls"
+				"name": "到Laurel 瀑布的步道"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2790.jpg",
 				"name": "Gatlinburg, TN"
@@ -461,134 +461,134 @@ oneDay = [
 		]
 	},{
 		"id": "duke-univ",
-		"title": "Duke University",
-		"time": "9 March, 2017",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2716.jpg", "The Duke Garden"],
+		"title": "杜克大学",
+		"time": "3/9, 2017",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2716.jpg", "杜克花园"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2720.jpg",
-				"name": "Duke University Chapel"
+				"name": "杜克大学教堂"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2714.jpg",
-				"name": "Sarah P. Duke Gardens"
+				"name": "莎拉·杜克花园"
 			}
 		]
 	},{
 		"id": "charleston",
-		"title": "Charleston",
-		"time": "29 December, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2663.jpg", "The Rainbow Row"],
+		"title": "查尔斯顿，南卡罗来纳州",
+		"time": "12/29, 2016",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2663.jpg", "彩虹街"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2659.jpg",
-				"name": "USS Yorktown CV-10"
+				"name": "约克郡号航空母舰"
 			},{
 				"link": "",
-				"name": "Rainbow Row"
+				"name": "彩虹街"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2668.jpg",
-				"name": "Historic Charleston Foundation"
+				"name": "查尔斯顿基金会遗址"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2667.jpg",
-				"name": "White Point Garden"
+				"name": "White Point公园"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2657.jpg",
-				"name": "Fort Sumter National Monument"
+				"name": "萨姆特堡国家纪念碑"
 			}
 		]
 	},{
 		"id": "chimney-rock",
-		"title": "Chimney Rock State Park",
+		"title": "烟囱岩州立公园",
 		"time": "23 October, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2568.jpg", "The View from the Top of the Rock"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2568.jpg", "岩顶景观"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2582.jpg",
-				"name": "Chimney Rock"
+				"name": "烟囱岩"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2581.jpg",
-				"name": "Skyline"
+				"name": "栈道"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2583.jpg",
-				"name": "Devil's Head"
+				"name": "魔鬼的头"
 			}
 		]
 	},{
 		"id": "raven-rock",
-		"title": "Raven Rock State Park",
-		"time": "5 September, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2458.jpg", "The Middle of the River"],
+		"title": "乌鸦岩州立公园",
+		"time": "9/5, 2016",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2458.jpg", "河中间"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2474.jpg",
-				"name": "Raven Rock"
+				"name": "乌鸦岩"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2479.jpg",
-				"name": "Cape Fear River"
+				"name": "开普菲尔河"
 			}
 		]
 	},{
 		"id": "pilot-mountain",
-		"title": "Pilot Mountain State Park",
-		"time": "6 August, 2016",
+		"title": "Pilot Mountain 州立公园",
+		"time": "8/6, 2016",
 		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2405.jpg", "The Pilot Mountain"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2404.jpg",
-				"name": "On the Way to the Mountain"
+				"name": "在路上"
 			}
 		]
 	},{
 		"id": "fort-macon",
-		"title": "Fort Macon State Park",
+		"title": "麦肯堡州立公园",
 		"time": "24 June, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2016.jpg", "The Outside of the Fort"],
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2016.jpg", "堡垒外部"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2015.jpg",
-				"name": "The Inside of the Fort"
+				"name": "堡垒内部"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2011.jpg",
-				"name": "The Seashore outside the Fort"
+				"name": "堡垒外的海滩"
 			}
 		]
 	},{
 		"id": "virginia-beach",
-		"title": "Virginia Beach",
-		"time": "11 June, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1991.jpg", "The Ocean View of the Virginia Beach"],
+		"title": "弗吉尼亚海滩",
+		"time": "6/11, 2016",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1991.jpg", "弗吉尼亚海滩的海景"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1980.jpg",
-				"name": "Neptune Statue"
+				"name": "海王星雕像"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1986.jpg",
-				"name": "The Seashore of the Virginia Beach"
+				"name": "弗吉尼亚海滩的沙滩"
 			}
 		]
 	},{
 		"id": "new-bern",
-		"title": "New Bern",
-		"time": "25 March, 2016",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2855.jpg", "The Birthplace of Pepsi Cola"],
+		"title": "新伯尔尼",
+		"time": "3/25, 2016",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_2855.jpg", "百事可乐诞生地"],
 		"rows": [
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1823.jpg",
-				"name": "Union Point Park"
+				"name": "Union Point 公园"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_1825.jpg",
-				"name": "Historic Downtown"
+				"name": "老城区"
 			}
 		]
 	},{
 		"id": "altantic-beach",
-		"title": "Atlantic Beach",
-		"time": "19 July, 2015",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_0770.jpg", "The Seashore of the Atlantic Beach"],
+		"title": "大西洋海滩",
+		"time": "7/19, 2015",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/one-day-usa/IMG_0770.jpg", "大西洋海滩的沙滩"],
 		"rows": [
 			{
 				"link": "",
-				"name": "The Seashore of the Atlantic Beach"
+				"name": "大西洋海滩的沙滩"
 			}
 		]
 	}
@@ -598,46 +598,46 @@ events = [
 	
 	{
 		"id": "concert",
-		"list": "Concert-JA",
-		"title": "Concert -- Jason Aldean",
-		"time": "13 July, 2017",
-		"description": "Jason Aldean is an American country music singer. He has his tour this year, and one stop is at PNC Music Pavillon, Charlotte. Therefore, we attend his concert. This is my first time to attend somebody's concert. I was really shocked by the atmosphere there. The whole concert is divided into three stages. ",
-		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2812.jpg", "The Second Stage"],
+		"list": "演唱会-JA",
+		"title": "演唱会 -- 杰森·阿尔丹",
+		"time": "7/13, 2017",
+		"description": "杰森·阿尔丹是美国的一名乡村音乐歌手。他今年有全美的巡回演唱会，其中有一站在夏洛特的PNC音乐厅。这是我第一次参加一个歌星的演唱会，现场的氛围让我非常震撼。不幸的是，我对他的所有歌都不熟，只能默默的听着周围一圈的粉丝在跟唱。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2812.jpg", "演唱会第二节"],
 		"rows":[
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2811.jpg",
-				"name": "Stage 1: Singer: Kane Brown"
+				"name": "第一节: 歌手: 凯恩·布朗"
 			},{
 				"link": "",
-				"name": "Stage 2: Singer: Unknown"
+				"name": "第二节: 歌手: 未知"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/concert/IMG_2817.jpg",
-				"name": "Stage 3: Singer: Jason Aldean"
+				"name": "第三节: 歌手: 杰森·阿尔丹"
 			}
 		]
 	},{
 		"id": "my-ceremony",
-		"list": "Graduation",
-		"title": "My Graduation Ceremony",
-		"time": "16 December, 2016",
-		"description": "Through two-year study starting from spring 2015 to fall 2016, I finished all the required courses, as well as my thesis defense. Therefore, I achieved my master's degree in software engineering. Also, because of the two years life, I become a chef and a self-barber. I can survive in the world without my parents' help. That will be a unique and wonderful achievement in my whole life.",
-		"coverImg": ["images/diploma.jpg", "The Diploma of My Master Degree"],
+		"list": "毕业典礼",
+		"title": "我的硕士毕业典礼",
+		"time": "12/16, 2016",
+		"description": "从2015年初到2016年底，我完成了所有的课程和论文，并得到了软件工程的硕士学位。两年时间，转瞬即逝，从刚来时的蹩脚英语，到现在毫无障碍的日常交流和演讲；从刚来时的黑暗料理，到现在的大厨水准（自认为）；从刚来时纠结头发的处理，到现在大师级的理发师（自认为）。最后，从刚来时的无神论者，到现在的基督教徒。两年时间，改变许多，也进步许多。",
+		"coverImg": ["images/diploma.jpg", "硕士学位证"],
 		"rows":[
 			{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2640.jpg",
-				"name": "The Moment"
+				"name": "和院长的合影"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2638.jpg",
-				"name": "The East Carolina University"
+				"name": "东卡罗莱纳大学"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2629.jpg",
-				"name": "The Fountain"
+				"name": "校内喷泉"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/IMG_2635.jpg",
-				"name": "The Pirates"
+				"name": "海盗先生"
 			},{
 				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/graduation/cow.jpg",
-				"name": "The Pirate Cow"
+				"name": "海盗先生的牛"
 			}
 		]
 	}

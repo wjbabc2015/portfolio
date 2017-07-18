@@ -1,0 +1,294 @@
+tripChina = [
+	{	
+		"id": "hunan",
+		"list": "湖南",
+		"name": "湖南",
+		"description": "湖南是我的家乡。迄今为止，我在湖南生活了20多年，一直到出国留学。在大三的春天，我们班上组织一起游览了张家界国家森林公园。我们所有同学花了三天的时间共同领略大自然的神奇和恩赐。而在2013年的暑假，妈妈他们和我一起，由我开车游玩了湘西凤凰，领略湘西的自然风光以及当地少数民族的文化。衡山作为五岳之一，我去过很多次。为了锻炼身体，每次我都从半山腰的半山亭开始，往上爬到祝融峰。在我出国之前，我有两段工作经历，全都是在省城长沙。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705183548.jpg", "矮寨大桥"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705183559.jpg",
+				"name": "南岳衡山"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705183749.jpg",
+				"name": "湘西凤凰"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705183753.jpg",
+				"name": "湘西天龙峡"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705210800.jpg",
+				"name": "张家界国家森林公园"
+			}
+		]
+	},{	
+		"id": "guangdong",
+		"list": "广东",
+		"name": "广东",
+		"description": "广东省位于中国南部。在大三暑假，学校组织我们专业在东莞电子厂进行了为期两周的实习。那是我第一次来到这里。我们几个玩的好的同学趁着周末去了深圳转悠了一圈。同时，在实习结束后，因为我们从广州乘坐火车回家，我又在广州游览了一圈。毕业后，因为专业的原因，大部分同学都落户于深圳广州。此后，因为各种原因，我也陆陆续续来过两三次，直到我2014年底出国。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705213142.jpg", "黄埔军校"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705214155.jpg",
+				"name": "越秀山"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705214205.jpg",
+				"name": "锦绣中华"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705214201.jpg",
+				"name": "世界之窗"
+			}
+		]
+	},{	
+		"id": "yunnan",
+		"list": "云南",
+		"name": "云南",
+		"description": "云南是一个我比较喜欢的地方，因为这里有美丽的自然风光。老妈和我计划了大概一周的旅行，我们陆续浏览了石林九乡，大理洱海，丽江古镇，滇池西山。同时，在丽江遥望了玉龙雪山。云南的过桥米线是一个值得品味的小吃。另外，各种野生菌类更是美味，只是价格不菲。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220103.jpg", "西山滇池"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220038.jpg",
+				"name": "石林"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220043.jpg",
+				"name": "九乡溶洞"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220053.jpg",
+				"name": "崇圣寺三塔"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220051.jpg",
+				"name": "洱海"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220046.jpg",
+				"name": "蝴蝶泉"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220057.jpg",
+				"name": "丽江古镇"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/shuhe.jpg",
+				"name": "束河古镇"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705220100.jpg",
+				"name": "黑龙潭"
+			}
+		]
+	},{	
+		"id": "qinghai",
+		"list": "青海",
+		"name": "青海",
+		"description": "毕业两年后的九月，我正好赋闲在家。老大提议我们可以计划一次难忘的旅行。经过一番筹备，包括我在内的四个同学开始了这趟旅程。我们分别从深圳，长沙和北京出发，汇合于青海西宁。这次为期三天的骑行总计390多公里，平均每天需要行进100多公里。这对我们身心来说是一个不小挑战。尤其在第二天，因为天气骤变，我们不得不逆着风雨前行。最后，第三天还了自行车后，我躺在沙发上一点都不想动。",
+		"coverImg": ["images/qinghai.jpg", "青海湖骑行路线"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706104030.jpg",
+				"name": "第一天: 西海 -- 江西沟"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706104037.jpg",
+				"name": "第二天： 江西沟 -- 沙柳河"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706104041.jpg",
+				"name": "第三天: 沙柳河 -- 西海"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706104044.jpg",
+				"name": "青海湖"
+			}
+		]
+	},{	
+		"id": "shanxi",
+		"list": "陕西",
+		"name": "陕西",
+		"description": "陕西西安是一个历史名城。从秦代起，总共有十三个王朝定都于此。其中以汉朝和唐朝最为著名。所以，在西安的大部分历史遗迹都是与这两个朝代相关。我们在西安停留了两天，尤其第二天我们游览了华清池，兵马俑以及秦始皇陵等。虽然我更喜欢自然风光，但是西安的历史古迹依旧给我留下了深刻的印象。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706110512.jpg", "西安钟鼓楼"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706110524.jpg",
+				"name": "秦始皇陵"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706110522.jpg",
+				"name": "皇陵兵马俑"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706110520.jpg",
+				"name": "华清池"
+			}
+		]
+	},{	
+		"id": "chongqing",
+		"list": "重庆",
+		"name": "重庆",
+		"description": "重庆虽然也是一座历史名城，但它没有西安和北京历史悠久。我对于重庆市内的人文景观感觉一般，但是对其周边的自然风光兴趣盎然。我在重庆停留了两天，第二天我找了个旅行社，参观游览了武隆地质公园。大自然的鬼斧神工再次给我留下了深刻的印象。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705224427.jpg", "朝天门"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705224432.jpg",
+				"name": "洪崖洞"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705224430.jpg",
+				"name": "磁器口"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705224424.jpg",
+				"name": "解放碑"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705224418.jpg",
+				"name": "武隆天生三桥"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170705224422.jpg",
+				"name": "仙女山地峡"
+			}
+		]
+	},{	
+		"id": "hubei",
+		"list": "湖北",
+		"name": "湖北",
+		"description": "湖北是我2013九月旅行的最后一站。首先，我从重庆出发到了恩施，拜访了老大的家人，并再次领略了大自然的美好 -- 恩施大峡谷。在回家的途中于武汉转车停留一天，从武昌火车站一直走过了长江大桥。傍晚，搭上火车回到了家里。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706121947.jpg", "武汉一隅"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706123814.jpg",
+				"name": "黄鹤楼"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706122048.jpg",
+				"name": "武汉长江大桥"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706122037.jpg",
+				"name": "晴川阁"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706122033.jpg",
+				"name": "武昌起义纪念馆"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/yunlong.jpg",
+				"name": "云龙地峡"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/enshi.jpg",
+				"name": "恩施大峡谷"
+			}
+		]
+	},{	
+		"id": "beijing",
+		"list": "北京",
+		"name": "北京",
+		"description": "北京是中国的首都。同时，它也是从金代以来五个朝代的首都。迄今为止，我去过北京三次。陆续游览了故宫，天坛，颐和园，长城等著名的景点。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/tiananmen.jpg", "天安门广场"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706113012.jpg",
+				"name": "长城"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706112946.jpg",
+				"name": "故宫"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/qianmen.jpg",
+				"name": "前门"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706112951.jpg",
+				"name": "天坛"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706112957.jpg",
+				"name": "颐和园"
+			}
+		]
+	},{	
+		"id": "jiangsu",
+		"list": "江苏",
+		"name": "江苏",
+		"description": "江苏在中国东部临海。我因为入职培训的原因，在苏州有过半年的停留。趁着这个机会，我游览了周庄，同里和木渎古镇。我也游览了拙政园和沧浪亭等江南园林。唯一遗憾的就是我没有享受到江苏的美食，因为口味不合。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706120024.jpg", "苏州一隅"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706120034.jpg",
+				"name": "周庄"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/tongli.jpg",
+				"name": "同里"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706120042.jpg",
+				"name": "木渎"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706120040.jpg",
+				"name": "沧浪亭"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706120038.jpg",
+				"name": "京杭大运河"
+			},{
+				"link": "",
+				"name": "七里山塘"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706120035.jpg",
+				"name": "拙政园"
+			}
+		]
+	},{	
+		"id": "northeast",
+		"list": "东北",
+		"name": "辽宁和黑龙江",
+		"description": "中国东北包括黑龙江，吉林和辽宁三个省。我前后到过辽宁三次，但是只去过黑龙江一次。辽宁有历史遗迹沈阳故宫，张帅府等。同时，它也有自然风光，像千山。黑龙江更多是人文景观，最著名的是每年冬天的冰雪大世界。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706114044.jpg", "大连星海广场"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706114029.jpg",
+				"name": "圣索菲亚大教堂"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/bingxue.jpg",
+				"name": "冰雪大世界"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706114035.jpg",
+				"name": "张氏帅府"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706114510.jpg",
+				"name": "沈阳故宫"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706114041.jpg",
+				"name": "千山"
+			}
+		]
+	},{	
+		"id": "hongkong",
+		"list": "香港",
+		"name": "香港",
+		"description": "老妈和我到香港去和小姨她们家团聚。我们一起游览了太平山，维多利亚港，昂坪大屿山等。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706143900.jpg", "维多利亚港"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706143905.jpg",
+				"name": "香港迪士尼乐园"
+			},{
+				"link": "",
+				"name": "尖沙咀"
+			},{
+				"link": "",
+				"name": "太平山顶"
+			},{
+				"link": "",
+				"name": "大屿山"
+			}
+		]
+	},{	
+		"id": "macau",
+		"list": "澳门",
+		"name": "澳门",
+		"description": "老妈和我从香港坐船到了澳门。和香港相比，澳门的景点没有那么的吸引我。但是，我们还是停留了两天闲逛了一些比较著名的景点。最后，由珠海入关回家。",
+		"coverImg": ["https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706143917.jpg", "澳门一隅"],
+		"rows":[
+			{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706143914.jpg",
+				"name": "葡京酒店"
+			},{
+				"link": "https://s3.us-east-2.amazonaws.com/portfolio-image/China/Image_20170706143910.jpg",
+				"name": "澳门渔人码头"
+			},{
+				"link": "",
+				"name": "澳门威尼斯人"
+			},{
+				"link": "",
+				"name": "大三巴牌坊"
+			},{
+				"link": "",
+				"name": "东望洋灯塔"
+			},{
+				"link": "",
+				"name": "妈祖阁"
+			},{
+				"link": "",
+				"name": "大炮台"
+			}
+		]
+	}
+]

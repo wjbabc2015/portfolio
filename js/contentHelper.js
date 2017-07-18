@@ -19,6 +19,8 @@ function expInitialize(){
 				content += '<div class="row experience">' + 
 							'<div class="col-md-9">' + 
 							'<h2 class="experience-heading">' + exp.jobTitle + '</h2>' +
+							'<hr>' +
+							'<p class="text-right">-- ' + exp.company + '</p>' + 
 							'<p class="text-right">' + exp.duration + '</p>' + 
 							'<ul class="list-group">';
 
@@ -37,6 +39,8 @@ function expInitialize(){
 				content += '<div class="row experience">' + 
 							'<div class="col-md-7">' + 
 							'<h2 class="experience-heading">' + exp.jobTitle + '</h2>' +
+							'<hr>' +
+							'<p class="text-right">-- ' + exp.company + '</p>' + 
 							'<p class="text-right">' + exp.duration + '</p>' + 
 							'<ul class="list-group">';
 
@@ -60,7 +64,7 @@ function expInitialize(){
 			}
 
 			if (i != experienceList.length - 1) {
-				content += '</div></div><hr class="experience-divider">';
+				content += '</div></div><hr class="profile-divider">';
 			} 
 		}else{
 			
@@ -68,6 +72,8 @@ function expInitialize(){
 				content += '<div class="row experience">' +  
 							'<div class="col-md-9  col-md-push-3">' + 
 							'<h2 class="experience-heading">' + exp.jobTitle + '</h2>' +
+							'<hr>' +
+							'<p class="text-right">-- ' + exp.company + '</p>' + 
 							'<p class="text-right">' + exp.duration + '</p>' + 
 							'<ul class="list-group">';
 
@@ -90,6 +96,8 @@ function expInitialize(){
 				content += '</div>' + 
 							'<div class="col-md-7">' + 
 							'<h2 class="experience-heading">' + exp.jobTitle + '</h2>' +
+							'<hr>' +
+							'<p class="text-right">-- ' + exp.company + '</p>' + 
 							'<p class="text-right">' + exp.duration + '</p>' + 
 							'<ul class="list-group">';
 
@@ -104,7 +112,7 @@ function expInitialize(){
 			}
 
 			if (i != experienceList.length - 1) {
-				content += '</ul></div></div><hr class="experience-divider">';
+				content += '</ul></div></div><hr class="profile-divider">';
 			}
 		}
 
@@ -128,9 +136,9 @@ function chinaInitialize(){
 		if (i % 2 == 1) {
 			chinaDetail += '<div class="row" id="' + province.id + '">' + 
 						'<h2><span class="font-italic">#' + i + ': </span>' + province.name + '</h2><hr>' +
-						'<div class="col-md-7"><p class="text-justify"><span class="lead">Description: </span>' + 
+						'<div class="col-md-7"><p class="text-justify"><span class="lead">Description(简介): </span>' + 
 						province.description + '</p>' + 
-						'<p class="lead">Tourist Attractions:</p>' + 
+						'<p class="lead">Tourist Attractions(旅游景点):</p>' + 
 						'<ul>';
 
 			for (var v = 0; v < province.rows.length; v ++){
@@ -153,7 +161,7 @@ function chinaInitialize(){
 							'" target="_blank" class="text-right">Full Picture -- ' + 
 							province.coverImg[1] + 
 							'</a></div></div>' + 
-							'<br><p class="pull-right"><a href="#trip-detail-china">Back to List</a></p>' + 
+							'<br><p class="pull-right"><a href="#trip-detail-china">Back to List(回到列表）</a></p>' + 
 							'<br><hr class="profile_divider">';
 
 		}else{
@@ -168,9 +176,9 @@ function chinaInitialize(){
 								'" target="_blank" class="text-right">Full Picture -- ' + 
 								province.coverImg[1] +
 								'</a></div>' + 
-								'<div class="col-md-7"><p class="text-justify"><span class="lead">Description: </span>' + 
+								'<div class="col-md-7"><p class="text-justify"><span class="lead">Description(简介): </span>' + 
 								province.description + '</p>' + 
-								'<p class="lead">Tourist Attractions:</p>' + 
+								'<p class="lead">Tourist Attractions(旅游景点):</p>' + 
 								'<ul>';
 
 			for (var v = 0; v < province.rows.length; v ++){
@@ -183,7 +191,7 @@ function chinaInitialize(){
 				}
 			}
 
-			chinaDetail += '</ul><br><p class="pull-right"><a href="#trip-detail-china">Back to List</a></p></div></div>' + 
+			chinaDetail += '</ul><br><p class="pull-right"><a href="#trip-detail-china">Back to List(回到列表）</a></p></div></div>' + 
 							'<hr class="profile_divider">';
 		} 
 
@@ -217,7 +225,7 @@ function oneInitialize(){
 							'</a></div>';
 
 			oneContent += '<div class="col-md-7">' + 
-							'<p><span class="lead">The ' + trip.title + ' </span>-- ' + trip.time + '</p>' + 
+							'<p><span class="lead">' + trip.title + ' </span>-- ' + trip.time + '</p>' + 
 							'<ul>';
 
 			for (var r = 0; r < trip.rows.length; r++) {
@@ -236,7 +244,7 @@ function oneInitialize(){
 			oneContent += '</ul></div>';
 		} else {
 			oneContent += '<div class="col-md-7">' + 
-							'<p><span class="lead">The ' + trip.title + ' </span>-- ' + trip.time + '</p>' + 
+							'<p><span class="lead">' + trip.title + ' </span>-- ' + trip.time + '</p>' + 
 							'<ul>';
 
 			for (var r = 0; r < trip.rows.length; r++) {
@@ -265,7 +273,7 @@ function oneInitialize(){
 		}
 
 		oneContent += '</div>' + 
-						'<p class="pull-right"><a href="#one-day-headline">Back to List</a></p>' + 
+						'<p class="pull-right"><a href="#one-day-headline">Back to List(回到列表）</a></p>' + 
 						'<hr>';
 		//alert(oneList);
 	}
@@ -291,7 +299,7 @@ function usaMulInitialize(){
 						'<div class="row">' + 
 							'<div class="col-md-7">' + 
 								'<p><span class="lead">Time: </span>' + trip.time + '</p>' + 
-								'<p class="text-justify"><span class="lead">Description: </span>' + trip.description + 
+								'<p class="text-justify"><span class="lead">Description(简介): </span>' + trip.description + 
 									'</p>' + 
 							'</div>' + 
 							'<div class="col-md-5">' + 
@@ -325,7 +333,7 @@ function usaMulInitialize(){
 
                 mulContent += '<div class="col-md-7">' + 
                 				'<p class="lead">' + row.rowTitle + '</p><hr>' + 
-                				'<p class="lead">Itinerary and Tourist Attractions:</p>' +  
+                				'<p class="lead">Itinerary and Tourist Attractions(行程和旅游景点):</p>' +  
                 				'<ul>';
 
                 for (var t = 0; t < row.details.length; t ++){
@@ -346,7 +354,7 @@ function usaMulInitialize(){
 
 				mulContent += '<div class="col-md-7">' + 
                 				'<p class="lead">' + row.rowTitle + '</p><hr>' +
-                				'<p class="lead">Itinerary and Tourist Attractions:</p>' +  
+                				'<p class="lead">Itinerary and Tourist Attractions(行程和旅游景点):</p>' +  
                 				'<ul>';
 
                 for (var t = 0; t < row.details.length; t ++){
@@ -387,7 +395,7 @@ function usaMulInitialize(){
 			//alert(mulContent);
 		}
 
-		mulContent += '</div><p class="pull-right"><a href="#trip-detail-usa">Back to List</a></p><hr class="profile_divider">';
+		mulContent += '</div><p class="pull-right"><a href="#trip-detail-usa">Back to List(回到列表）</a></p><hr class="profile_divider">';
 	}
 
 	document.getElementById("multip-days").innerHTML = mulList;
@@ -412,7 +420,7 @@ function eventInitialize(){
 		if (i % 2 == 1) {
 			eveContent += '<div class="col-md-7">' + 
 							'<p><span class="lead">Time: </span>' + eve.time + '</p>' +
-							'<p class="text-justify"><span class="lead">Description: </span>' + eve.description + '</p>' + 
+							'<p class="text-justify"><span class="lead">Description(简介): </span>' + eve.description + '</p>' + 
 							'<ul>';
 
 			for (var r in eve.rows){
@@ -449,7 +457,7 @@ function eventInitialize(){
 
 			eveContent += '<div class="col-md-7">' + 
 							'<p><span class="lead">Time: </span>' + eve.time + '</p>' +
-							'<p class="text-justify"><span class="lead">Description: </span>' + eve.description + '</p>' + 
+							'<p class="text-justify"><span class="lead">Description(简介): </span>' + eve.description + '</p>' + 
 							'<ul>';
 
 			for (var r in eve.rows){
@@ -468,7 +476,7 @@ function eventInitialize(){
 		}
 
 		eveContent += '</div>' + 
-						'<p class="pull-right"><a href="#trip-detail-usa">Back to List</a></p><hr>' + 
+						'<p class="pull-right"><a href="#trip-detail-usa">Back to List(回到列表）</a></p><hr>' + 
 						'</div>';
 	}
 
