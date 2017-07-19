@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="The portfolio of Jiabin Wang provides his general information including professional skills, working and traveling experience.">
+    <meta name="author" content="Jiabin Wang">
 
     <title>王嘉滨的个人主页</title>
-    <meta name="description" content="The portfolio of Jiabin Wang provides his general information including professional skills, working and traveling experience.">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -75,7 +74,7 @@
       </div>
     </div>
     
-    <div class="tab-content">
+    <div class="tab-content" ng-app="myApp">
       <div class="tab-pane active" id="home" role ="tabpanel">
         <div class="container">
           <!-- Carousel
@@ -235,16 +234,66 @@
         </div>
       </div>
 
-      <div class="tab-pane" id="experience" role = "tabpanel">
+      <div class="tab-pane" id="experience" role = "tabpanel" ng-controller="expCtrl">
         
         <!-- Experience 
         ================================================== -->
         <hr class="experience-divider">      
           
-        <div class="container" id = "experience-list">          
+        <div class="container" id = "experience-list" ng-repeat="exp in exps">
+          <div class="row experience" ng-if="$even">
+            
+            <div class="col-md-8">
+              <h2 class="experience-heading">{{exp.jobTitle}}</h2>
+              <hr>
+              <p class="text-right">-- {{exp.company}}</p>
+              <p class="text-right">{{exp.duration}}</p>
+              <ul class="list-group">
+                <li ng-repeat="ele in exp.discription"><p class="lead text-justify">{{ele}}</p></li>
+              </ul>
+
+              <p class="lead">工作成果: </p>
+              <ul>
+                <li ng-repeat="link in exp.reference"><a href="{{link}}" target="_blank">{{link}}</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-4">
+              <div ng-repeat="image in exp.imageSrc">
+                <img class="experience-image img-responsive center-block" src="{{image}}" alt="Generic placeholder image">
+                <hr>
+              </div>
+            </div>
+          </div>
+
+          <div class="row experience" ng-if="$odd">
+            
+            <div class="col-md-4">
+              <div ng-repeat="image in exp.imageSrc">
+                <img class="experience-image img-responsive center-block" src="{{image}}" alt="Generic placeholder image">
+                <hr>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <h2 class="experience-heading">{{exp.jobTitle}}</h2>
+              <hr>
+              <p class="text-right">-- {{exp.company}}</p>
+              <p class="text-right">{{exp.duration}}</p>
+              <ul class="list-group">
+                <li ng-repeat="ele in exp.discription"><p class="lead text-justify">{{ele}}</p></li>
+              </ul>
+
+              <p class="lead">工作成果: </p>
+              <ul>
+                <li ng-repeat="link in exp.reference"><a href="{{link}}" target="_blank">{{link}}</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="profile_divider">
         </div>
 
-        <hr class="experience-divider">
       </div>
 
       <div class="tab-pane" id="travel-china" role ="tabpanel">
@@ -262,7 +311,7 @@
           <hr class="experience-divider">
         </div>
 
-        <div class="container" id="trip-detail-china">
+        <div class="container" id="trip-detail-china" ng-controller="chinaCtrl">
           <h1 class="text-primary">难忘的足迹，锦绣中华</h1>
           <hr>
 
@@ -270,24 +319,83 @@
             <div class="sidebar-module">
               <h4>省（地区）</h4>
               <ol class="list-unstyled" id="prov-list">
-                
+                <li ng-repeat="province in ctrips"><a href="#{{province.id}}">{{province.list}}</a></li>
               </ol>
             </div>
           </div>
 
           <div class="container col-sm-9" id="china-detail">
             
+            <div class="row" id="{{province.id}}" ng-repeat="province in ctrips">
+              <h2><span class="font-italic">#{{$index + 1}}: </span>{{province.name}}</h2>
+              <hr>
+
+              <div class="row" ng-if="$even">
+                <div class="col-md-7">
+                  <p class="text-justify"><span class="lead">简介: </span>{{province.description}}</p>
+                  <p class="lead">旅游景点:</p>
+                  
+                  <ul>
+                    <li ng-repeat="row in province.rows">
+                      <div ng-if="row.link != ''">
+                        <a href="{{row.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{row.name}}</a>
+                      </div>
+
+                      <div ng-if="row.link == ''">
+                        {{row.name}}
+                      </div>
+
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-md-5">
+                  <img class="trip-image img-responsive center-block" src="{{province.coverImg[0]}}" alt="Generic placeholder image">
+                  <a href="{{province.coverImg[0]}}" target="_blank" class="text-right">原始图片 -- {{province.coverImg[1]}}</a>
+                </div>
+
+              </div>
+
+              <div class="row" ng-if="$odd">
+
+                <div class="col-md-5">
+                  <img class="trip-image img-responsive center-block" src="{{province.coverImg[0]}}" alt="Generic placeholder image">
+                  <a href="{{province.coverImg[0]}}" target="_blank" class="text-right">原始图片 -- {{province.coverImg[1]}}</a>
+                </div>
+
+                <div class="col-md-7">
+                  <p class="text-justify"><span class="lead">简介: </span>{{province.description}}</p>
+                  <p class="lead">旅游景点:</p>
+                  
+                  <ul>
+                    <li ng-repeat="row in province.rows">
+                      <div ng-if="row.link != ''">
+                        <a href="{{row.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{row.name}}</a>
+                      </div>
+
+                      <div ng-if="row.link == ''">
+                        {{row.name}}
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <br><p class="pull-right"><a href="#trip-detail-china">回到列表</a></p>
+              <br><hr class="profile_divider">
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="tab-pane" id="travel-usa" role ="tabpanel">
+      <div class="tab-pane" id="travel-usa" role ="tabpanel" ng-controller="usaCtrl">
         
         <!-- Travel in USA 
         ================================================== -->
         <div class="container-fluid">
           <hr class="experience-divider">
-          <h1 class="text-center text-primary">走遍美国</h1>
+          <h1 class="text-center text-primary">走遍美利坚</h1>
           <div id="usaMap"></div>
           <h4 class="text-right"><span class="text-primary">蓝线:</span> 2016暑假从东海岸自驾到西海岸路线</h4>
           <hr class="experience-divider">
@@ -304,11 +412,15 @@
                 <li><a href="#one-day-headline">一日游</a></li>
 
                 <li>
-                  <ol class="list-unstyled" id="multip-days"></ol>
+                  <ol class="list-unstyled" id="multip-days">
+                    <li ng-repeat="udaystrip in udaystrips"><a href="#{{udaystrip.id}}">{{udaystrip.list}}</a></li>
+                  </ol>
                 </li>
 
                 <li>
-                  <ol class="list-unstyled" id="event"></ol>
+                  <ol class="list-unstyled" id="event">
+                    <li ng-repeat="event in uevents"><a href="#{{event.id}}">{{event.list}}</a></li>
+                  </ol>
                 </li>
               </ol>
             </div>
@@ -316,7 +428,7 @@
 
           <div class="container col-sm-9">
             
-            <h2><span class="font-italic">#: </span>轻松一日游</h2><hr>
+            <h2 class="text-info">-- 美帝轻松一日游</h2><hr>
             
             <div class="row" id="one-day-headline">
               <div class="col-md-7">
@@ -324,10 +436,10 @@
                   <span class="lead">简介: </span>在美国的这段时间，我经常趁着周末在村里的周围闲逛。基本上，都是一天往返的旅行。
                 </p>
 
-                <p><span class="lead">旅游景点: </span>
-                  <ul id="one-day-list">
-
-                  </ul>
+                <p><span class="lead">景点列表: </span>
+                <ul id="one-day-list">
+                  <li ng-repeat="udaytrip in udaytrips"><a href="#{{udaytrip.id}}">{{udaytrip.title}}</a></li>
+                </ul>
                 </p>
               </div>
 
@@ -340,16 +452,217 @@
             <hr>
 
             <div id="one-day-detail">
+              <div class="row" id="{{udaytrip.id}}" ng-repeat="udaytrip in udaytrips">
+
+                <div class="row" ng-if="$even">
+                  
+                  <div class="col-md-5">
+                    <img class="trip-image img-responsive center-block" src="{{udaytrip.coverImg[0]}}" alt="Generic placeholder image">
+                    <a href="{{udaytrip.coverImg[0]}}" target="_blank" class="text-right">原始图片 -- {{udaytrip.coverImg[1]}}</a>
+                    <hr>
+                  </div>
+
+                  <div class="col-md-7">
+                    <p class="lead">{{udaytrip.title}}</p>
+                    <hr>
+                    <p class="text-right">-- {{udaytrip.time}}</p>
+                    <p class="text-left"><span class="lead">旅游景点:</span></p>
+
+                    <ul class="list-group">
+                      <li ng-repeat="row in udaytrip.rows">
+                        <div ng-if="row.link != ''">
+                          <a href="{{row.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{row.name}}</a>
+                        </div>
+
+                        <div ng-if="row.link == ''">
+                          {{row.name}}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row" ng-if="$odd">
+                  <div class="col-md-7">
+                    <p class="lead">{{udaytrip.title}}</p>
+                    <hr>
+                    <p class="text-right">-- {{udaytrip.time}}</p>
+                    <p class="text-left"><span class="lead">旅游景点:</span></p>
+
+                    <ul class="list-group">
+                      <li ng-repeat="row in udaytrip.rows">
+                        <div ng-if="row.link != ''">
+                          <a href="{{row.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{row.name}}</a>
+                        </div>
+
+                        <div ng-if="row.link == ''">
+                          {{row.name}}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-5">
+                    <img class="trip-image img-responsive center-block" src="{{udaytrip.coverImg[0]}}" alt="Generic placeholder image">
+                    <a href="{{udaytrip.coverImg[0]}}" target="_blank" class="text-right">原始图片 -- {{udaytrip.coverImg[1]}}</a>
+                    <hr>
+                  </div>
+                </div>
+
+
+                <br><p class="pull-right"><a href="#trip-detail-usa">回到列表</a></p>
+                <br><hr class="profile_divider">
+              </div>
             </div>
 
-            <hr class="profile_divider">
+            <h2 class="text-info">-- 难忘的长途旅行</h2><hr>
+            <div id="multip-days-detail">
+              <div class="row" id="{{udaystrip.id}}" ng-repeat="udaystrip in udaystrips">
+                <h2><span class="font-italic">#{{$index + 1}}: </span>{{udaystrip.title}}</h2>
+                <hr>
 
-            <h2><span class="font-italic">#: </span>难忘的长途旅行</h2><hr class="profile_divider">
-            <div id="multip-days-detail"></div>
-            <hr class="profile_divider">
+                <div class="row">
+                  
+                  <div class="col-md-7">
+                    <p><span class="lead">时间: </span>{{udaystrip.time}}</p>
+                    <p class="text-justify"><span class="lead">简介: </span>{{udaystrip.description}}</p>
+                  </div>
 
-            <h2><span class="font-italic">#: </span>值得留恋的瞬间</h2><hr class="profile_divider">
-            <div id="event-detail"></div>
+                  <div class="col-md-5">
+                    <img src="{{udaystrip.titleImg[0]}}" class="trip-image img-responsive center-block" alt="Generic placeholder image">
+                    <a href="{{udaystrip.titleImg[0]}}" target="_blank" class="text-right">原始图片 -- {{udaystrip.titleImg[1]}}</a>
+                  </div>
+
+                </div>
+                <hr>
+
+                <div class="row" ng-repeat="row in udaystrip.rows">
+                  
+                  <div class="row" ng-if="$even">
+                    <div class="col-md-5">
+                      <div class="row" ng-repeat="image in row.coverImg">
+                        <img class="trip-image img-responsive center-block" src="{{image[0]}}" alt="Generic placeholder image">
+                        <a href="{{image[0]}}" target="_blank" class="text-right">原始图片 -- {{image[1]}}</a>
+                        <hr>
+                      </div>
+                    </div> 
+
+                    <div class="col-md-7">
+                      <p class="lead">{{row.rowTitle}}</p>
+                      <hr>
+
+                      <p class="lead">行程和旅游景点:</p>
+
+                      <ul>
+                        <li ng-repeat="attr in row.details">
+                          <div ng-if="attr.link != ''">
+                            <a href="{{attr.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{attr.name}}</a>
+                          </div>
+
+                          <div ng-if="attr.link == ''">
+                            {{attr.name}}
+                          </div>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+
+                  <div class="row" ng-if="$odd">
+
+                    <div class="col-md-7">
+                      <p class="lead">{{row.rowTitle}}</p>
+                      <hr>
+
+                      <p class="lead">行程和旅游景点:</p>
+
+                      <ul class="list-group">
+                        <li ng-repeat="attr in row.details">
+                          <div ng-if="attr.link != ''">
+                            <a href="{{attr.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{attr.name}}</a>
+                          </div>
+
+                          <div ng-if="attr.link == ''">
+                            {{attr.name}}
+                          </div>
+                        </li>
+                      </ul>
+                      
+                    </div>
+
+                    <div class="col-md-5">
+                      <div class="row" ng-repeat="image in row.coverImg">
+                        <img class="trip-image img-responsive center-block" src="{{image[0]}}" alt="Generic placeholder image">
+                        <a href="{{image[0]}}" target="_blank" class="text-right">原始图片 -- {{image[1]}}</a>
+                        <hr>
+                      </div>
+                    </div> 
+                  </div>
+
+                  <hr>
+                </div>
+
+                <br><p class="pull-right"><a href="#trip-detail-usa">回到列表</a></p>
+                <br><hr class="profile_divider">
+              </div>
+            </div>
+
+            <h2 class="text-info">-- 值得留恋的瞬间</h2><hr>
+            <div id="event-detail">
+                <div class="row" ng-repeat="event in uevents" id="{{event.id}}">
+                  <h2><span class="font-italic">#{{$index + 1}}: </span>{{event.title}}</h2>
+                  <hr>
+
+                  <div class="row">
+                    <div ng-if="$even">
+                      <div class="col-md-7">
+                        <p><span class="lead">时间: </span>{{event.time}}</p>
+                        <p class="text-justify"><span class="lead">简介: </span>{{event.description}}</p>
+
+                        <ul>
+                          <li ng-repeat="row in event.rows">
+                            <div ng-if="row.link != ''">
+                              <a href="{{row.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{row.name}}</a>
+                            </div>
+
+                            <div ng-if="row.link == ''">{{row.name}}</div>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="col-md-5">
+                        <img class="trip-image img-responsive center-block" src="{{event.coverImg[0]}}"" alt="Generic placeholder image"><a href="{{event.coverImg[0]}}" target="_blank" class="text-right">原始图片 -- {{event.coverImg[1]}}</a>
+                        <hr>
+                      </div>  
+                    </div>
+
+                    <div ng-if="$odd">
+                      <div class="col-md-5">
+                        <img class="trip-image img-responsive center-block" src="{{event.coverImg[0]}}"" alt="Generic placeholder image"><a href="{{event.coverImg[0]}}" target="_blank" class="text-right">原始图片 -- {{event.coverImg[1]}}</a>
+                        <hr>
+                      </div>
+
+                      <div class="col-md-7">
+                        <p><span class="lead">时间: </span>{{event.time}}</p>
+                        <p class="text-justify"><span class="lead">简介: </span>{{event.description}}</p>
+
+                        <ul>
+                          <li ng-repeat="row in event.rows">
+                            <div ng-if="row.link != ''">
+                              <a href="{{row.link}}" target="_blank" class="text-right" data-toggle="popover" data-trigger="focus" title="Image Preview">{{row.name}}</a>
+                            </div>
+
+                            <div ng-if="row.link == ''">{{row.name}}</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <br><p class="pull-right"><a href="#trip-detail-usa">回到列表</a></p>
+                  <br><hr class="profile_divider">
+                </div>
+            </div>
             <hr class="profile_divider">
 
           </div>
@@ -371,7 +684,7 @@
               <a href="http://www.fitbit.com/user/5HMHQ9" target="_blank">Fitbit</a>
             </li>
           </ul>
-          <p class="pull-right"><a href="#">回到顶部</a></p>
+          <p class="pull-right"><a href="#">Back to top</a></p>
           <p>Designed and built by Jiabin (Jeremy) Wang.</p>
         </div>
       </footer>
@@ -401,10 +714,11 @@
     <!-- USA Trip List -->
     <script src = "js/tripUSA_cn.json"></script>
 
-    <!-- List Controller -->
-    <script src = "js/contentHelper.js"></script>
+    <!-- Angular.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="js/myController.js"></script>
 
-    <script src="//maps.google.cn/maps/api/js?region=cn&language=zh-CN&key=AIzaSyDShvmWCryE9cy4DRFFBMePxeVy3Y3dJrk"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDShvmWCryE9cy4DRFFBMePxeVy3Y3dJrk"></script>
 
     <script src = "js/chinaMarker_cn.json"></script>
     <script src = "js/usaMarker_cn.json"></script>
