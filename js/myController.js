@@ -13,3 +13,4 @@ app.controller('usaCtrl', function($scope){
 	$scope.udaystrips = multipleDay;
 	$scope.uevents = events;
 });
+

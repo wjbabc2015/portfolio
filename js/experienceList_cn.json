@@ -3,6 +3,7 @@ experienceList = [
 		"jobTitle": "网页开发工程师（兼职）",
 		"company": "东卡罗莱纳大学",
 		"duration": "4.2017 - Present",
+		"id": "exp-6",
 		"discription": ["独立开发建立了用于视频上传的网站以及其管理员的后台控制页面", "精通网页前端开发技术，基于Bootstrap的架构，利用HTML+CSS+Jquery，对该网站的前端进行了设计开发", "精通网页后端开发技术，利用PHP和MySQL，对该网站的后端和数据库进行了设计开发"],
 		"reference": ["http://hawk.aos.ecu.edu/videoupload/"],
 		"imageSrc": ["images/project1.jpg"]
@@ -10,6 +11,7 @@ experienceList = [
 		"jobTitle": "研究助理（机器学习方向）",
 		"company": "计算机科学系，东卡罗莱纳大学",
 		"duration": "8.2016 - 4.2017",
+		"id": "exp-5",
 		"discription": ["精通JAVA应用开发，设计开发了一款JAVA小应用，用于从衍射图像的灰度共生矩阵（GLCM）上提取纹理参数", "熟悉软件的单元测试，对开发的JAVA应用进行了单元测试用于验证其正确性", "熟悉监督式学习中的支持向量机算法，利用LIBSVM软件，验证了灰度共生矩阵对于衍射图像识别的有效性"],
 		"reference": ["https://github.com/wjbabc2015/Automated-Classification-for-Massive-Scale-Image-Data"],
 		"imageSrc": []
@@ -17,6 +19,7 @@ experienceList = [
 		"jobTitle": "研究助理（网页开发工程师）",
 		"company": "东卡罗莱纳大学",
 		"duration": "2.2016 - 8.2016",
+		"id": "exp-4",
 		"discription": ["独立开发建立了用于人员信息管理的网站", "精通MySQL，利用MySQL的查询语句用于实现该网站的复杂的信息查询功能", "精通PHP 和AJAX，基于PHP实现了网页的后端开发，同时利用AJAX实现了网页的动态化", "精通Javascript的文件对象模型（DOM），利用HTML+Javascript+CSS实现了网页的前端开发"],
 		"reference": ["http://hawk.aos.ecu.edu/"],
 		"imageSrc": []
@@ -24,6 +27,7 @@ experienceList = [
 		"jobTitle": "研究助理（安卓应用开发工程师）",
 		"company": "工程系，东卡罗莱纳大学",
 		"duration": "8.2015 - 2.2016",
+		"id": "exp-3",
 		"discription": ["利用Andro Studio工具，设计开发了一款通过IOIO板（一种安卓手机控制器）连接外部设备的安卓应用，用于病人健康指数和浮肿的监测", "利用SQLITE功能，在应用内建立数据库用于数据追踪查询", "基于XML架构，设计开发了应用的用户界面", "基于JAVA，设计开发了应用的后端程序"],
 		"reference": [],
 		"imageSrc": ["images/project4.jpg", "images/project4-2.jpg"]
@@ -31,6 +35,7 @@ experienceList = [
 		"jobTitle": "版图设计工程师",
 		"company": "国科微电子股份有限公司",
 		"duration": "7.2014 - 12.2014",
+		"id": "exp-2",
 		"discription": ["负责将模拟电路原理图转化为可用于工业生产的集成电路布局图", "利用DRC(Design rule checking), LVS(Layout Versus Schematic)等过程对设计的版图进行可行性验证"],
 		"reference": [],
 		"imageSrc": []
@@ -38,6 +43,7 @@ experienceList = [
 		"jobTitle": "版图设计工程师",
 		"company": "神锋电子科技有限公司",
 		"duration": "7.2011 - 9.2012",
+		"id": "exp-1",
 		"discription": ["负责将模拟电路原理图转化为可用于工业生产的集成电路布局图", "利用DRC(Design rule checking), LVS(Layout Versus Schematic)等过程对设计的版图进行可行性验证"],
 		"reference": [],
 		"imageSrc": []
